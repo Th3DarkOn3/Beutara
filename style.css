@@ -6,6 +6,10 @@
 /*======================================Header===================================*/
 ul > li >a{
     text-decoration: none;
+    color: var(--bs-gray-500);
+}
+ul > li >a:hover{
+    color: var(--bs-warning);
 }
 html {
     scroll-behavior: smooth;
