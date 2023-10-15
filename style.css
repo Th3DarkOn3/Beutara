@@ -4,11 +4,11 @@
 /*font-family: 'Oswald', sans-serif;*/
 
 /*======================================Header===================================*/
-ul > li >a{
+.footerLinks{
     text-decoration: none;
     color: var(--bs-gray-500);
 }
-ul > li >a:hover{
+.footerLinks:hover{
     color: var(--bs-warning);
 }
 html {
