@@ -75,9 +75,10 @@ nav{
 }
 #mail{
     margin-top: 2%;
+    margin-bottom: 1% !important;
     background-color: white;
     color: black;
-    padding: 8px;
+    padding: 5px;
     max-width: 50% !important;
 }
 #mail > p{
