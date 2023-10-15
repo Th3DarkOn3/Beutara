@@ -238,6 +238,8 @@ nav{
 }
 .contactForm{
     margin: 10% 5% 10% 5% !important;
+    padding: 8px;
+    border-radius: 10px;
     background-color: lightgray;
 }
 /*==================================Footer==========================================*/
