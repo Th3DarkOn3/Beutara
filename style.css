@@ -77,7 +77,11 @@ nav{
     margin-top: 2%;
     background-color: white;
     color: black;
-    padding: 5px;
+    padding: 8px;
+    max-width: 50% !important;
+}
+#mail > p{
+    margin-left: 8px !important;
 }
 /*==================================Main===========================================*/
 .title{
