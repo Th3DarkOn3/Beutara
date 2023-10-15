@@ -245,6 +245,7 @@ nav{
 #mail{
     margin-top: 2%;
     margin-bottom: 2% !important;
+    border-radius: 10px;
     background-color: white;
     color: black;
     padding: 5px;
