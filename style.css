@@ -4,6 +4,9 @@
 /*font-family: 'Oswald', sans-serif;*/
 
 /*======================================Header===================================*/
+ul > li >a{
+    text-decoration: none;
+}
 html {
     scroll-behavior: smooth;
 }
