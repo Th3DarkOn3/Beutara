@@ -73,17 +73,6 @@ nav{
 .beut{
     width: 20%;
 }
-#mail{
-    margin-top: 2%;
-    margin-bottom: 1% !important;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    max-width: 50% !important;
-}
-#mail > p{
-    margin-left: 8px !important;
-}
 /*==================================Main===========================================*/
 .title{
     font-size: 40px;
@@ -248,10 +237,21 @@ nav{
     color: black !important;
 }
 .contactForm{
-    margin: 5% 5% 10% 5% !important;
+    margin: 3% 5% 3% 5% !important;
     padding: 8px;
     border-radius: 10px;
     background-color: lightgray;
+}
+#mail{
+    margin-top: 2%;
+    margin-bottom: 2% !important;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    max-width: 50% !important;
+}
+#mail > p{
+    margin-left: 8px !important;
 }
 /*==================================Footer==========================================*/
 footer{
