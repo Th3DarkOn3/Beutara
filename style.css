@@ -76,6 +76,9 @@ nav{
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
+.btn-container{
+    padding: 5% 20% 0% -5% !important;
+}
 /*==================================Main===========================================*/
 .title{
     font-size: 40px;
