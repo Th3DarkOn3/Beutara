@@ -22,7 +22,7 @@ html {
     overflow-y: scroll;
     height: 100vh;
 }
-.section_container > div > button > a{
+.section_container > section > button > a{
     text-decoration: none !important;
     color: white !important;
 }
