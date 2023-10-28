@@ -47,6 +47,7 @@ html {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    margin-bottom: 5% !important;
 }
 .nav-link{
     color: var(--bs-white) !important;
