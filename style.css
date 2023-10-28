@@ -21,6 +21,7 @@ html {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    padding: 10% !important;
 }
 .section_container > section > button > a{
     text-decoration: none !important;
@@ -46,7 +47,7 @@ html {
     background-image: url(IMG/BG.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
 }
 .nav-link{
     color: var(--bs-white) !important;
