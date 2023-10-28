@@ -17,7 +17,7 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-.home_body{
+.section_container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
@@ -34,8 +34,7 @@ html {
     background-image: url(IMG/BG.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    scroll-snap-align: start;
+    min-height: 900px;
 }
 .nav-link{
     color: var(--bs-white) !important;
