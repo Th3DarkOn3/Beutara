@@ -26,6 +26,9 @@ html {
     text-decoration: none !important;
     color: white !important;
 }
+.section_container > section{
+    padding: 10% !important;
+}
 .one{
     height: 100vh;
     scroll-snap-align: start;
@@ -47,7 +50,8 @@ html {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin-bottom: 5% !important;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 .nav-link{
     color: var(--bs-white) !important;
