@@ -28,10 +28,17 @@ html {
     color: white !important;
 }
 .one{
+    background-image: url(IMG/BG.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     scroll-snap-align: start;
 }
 .two{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+.three{
     height: 100vh;
     scroll-snap-align: start;
 }
@@ -42,13 +49,6 @@ html {
 }
 .bg-body-tertiary{
     background-color: transparent !important;
-}
-#header-home{
-    background-image: url(IMG/BG.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    scroll-snap-align: start;
 }
 .nav-link{
     color: var(--bs-white) !important;
