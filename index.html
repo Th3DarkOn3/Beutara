@@ -10,7 +10,7 @@
         <link rel="icon" href="IMG\cropped-telechargement-192x192.png">
         <title>Beutara</title>
     </head>
-    <body class="section_container">
+    <body>
         <header id="header-home">
             <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
@@ -69,7 +69,7 @@
             </div>
         </header>
         <main>
-            <div class="">
+            <div class="section_container">
               <section class="one d-flex justify-content-around align-items-center">
                 <button type="button" class="btn btn-secondary btn-lg"><a href="distNum.html">Distribution Numerique</a></button>
                 <button type="button" class="btn btn-secondary btn-lg">Edition Musicale</button>
@@ -133,6 +133,17 @@
             <p>Tous droits réservés par Beutara 2023 ©</p>
           </div>
         </footer>
+        <script>
+          const container = document.querySelector('#header-home');
+      
+          container.addEventListener('scroll', () => {
+              const scrollTop = container.scrollTop;
+      
+              // Scroll the entire page based on the container's scroll position
+              window.scrollTo(0, scrollTop);
+          });
+      </script>
+      
         <script src="script.js"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="https://kit.fontawesome.com/c1406fe2c5.js" crossorigin="anonymous"></script>

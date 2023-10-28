@@ -16,6 +16,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .section_container{
     scroll-snap-type: y mandatory;
@@ -25,9 +26,6 @@ html {
 .section_container > section > button > a{
     text-decoration: none !important;
     color: white !important;
-}
-.section_container > section{
-    padding: 10% !important;
 }
 .one{
     height: 100vh;
@@ -50,7 +48,7 @@ html {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    scroll-snap-align: start;
+    overflow: scroll;
 }
 .nav-link{
     color: var(--bs-white) !important;
