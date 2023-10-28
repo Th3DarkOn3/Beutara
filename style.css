@@ -50,7 +50,6 @@ html {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    height: 100vh;
     scroll-snap-align: start;
 }
 .nav-link{
