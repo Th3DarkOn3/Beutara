@@ -47,7 +47,8 @@ html {
     background-image: url(IMG/BG.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 .nav-link{
     color: var(--bs-white) !important;
