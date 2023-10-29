@@ -225,24 +225,6 @@ nav{
     max-width: 94% !important;
     margin-left: 3% !important;
 }
-.contactForm{
-    margin: 3% 5% 3% 5% !important;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: lightgray;
-}
-#mail{
-    margin-top: 2%;
-    margin-bottom: 2% !important;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    max-width: 50% !important;
-}
-#mail > p{
-    margin-left: 8px !important;
-}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
