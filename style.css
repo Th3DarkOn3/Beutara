@@ -13,35 +13,6 @@
 }
 html {
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.section_container{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-    padding: 10% !important;
-}
-.section_container > section > button > a{
-    text-decoration: none !important;
-    color: white !important;
-}
-.one{
-    width: 100% !important;
-    background-image: url(IMG/BG.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    scroll-snap-align: start;
-}
-.two{
-    height: 100vh;
-    scroll-snap-align: start;
-}
-.three{
-    height: 100vh;
-    scroll-snap-align: start;
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -50,6 +21,12 @@ html {
 }
 .bg-body-tertiary{
     background-color: transparent !important;
+}
+#header-home{
+    background-image: url(IMG/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
 }
 .nav-link{
     color: var(--bs-white) !important;
@@ -74,7 +51,7 @@ html {
     color: white;
     border-radius: 10px;
     max-width: 550px !important;
-    margin-top: 80% !important;
+    margin-top: 25% !important;
     margin-left: 5% !important;
     padding-top: 20px;
     padding-bottom: 8px;
@@ -125,6 +102,22 @@ nav{
     max-height:95px;
     width: auto;
     height: auto;
+}
+.title-cards{
+    margin-top: 10% !important;
+    font-weight: 750;
+}
+.cards-services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.card{
+    min-width: 23% !important;
+}
+.card-text{
+    margin-top: 8% !important;
 }
 .parallax {
     background-image: url(IMG/3425171.jpg);
@@ -224,13 +217,6 @@ nav{
         1.5px -1.5px 0 black,
         -1.5px 1.5px 0 black,
         1.5px 1.5px 0 black;
-}
-.bg_p{
-    border: solid 1px black;
-    background-color: lightgray;
-    font-style: italic;
-    font-weight: 450;
-    color: #0e76a8;
 }
 #PRB{
     max-width: 94% !important;
