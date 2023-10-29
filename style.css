@@ -109,12 +109,15 @@ nav{
 }
 .cards-services{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    max-width: 94%;
+    margin-left: 3%;
     margin-top: 2%;
     margin-bottom: 5%;
 }
 .card{
-    min-width: 23% !important;
+    border: solid 1.5px black !important;
+    padding: 6px;
 }
 .card-text{
     margin-top: 8% !important;
