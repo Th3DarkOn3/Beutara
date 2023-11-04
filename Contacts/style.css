@@ -109,60 +109,61 @@ nav{
 /*==================================Footer==========================================*/
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 20px;
 }
-.social > ul > li{
+.social > li{
     list-style: none;
     margin-left: 8px;
     margin-right: 8px;
     display: inline;
 }
-.social > ul > li > a > i{
+.social > li > a > i{
     font-size: 2em;
     color: lightgray;
 }
-.social ul li:nth-child(1){
+.social li:nth-child(1){
+    max-width: 2em !important;
     content: "\f09a";
     color: #3b5998;
     border-bottom: 4px solid #3b5998;
 }
-.social ul li:nth-child(2){
+.social li:nth-child(2){
+    max-width: 2em !important;
     content: "\f09a";
     color: #dd2a7b;
     border-bottom: 4px solid #dd2a7b;
 }
-.social ul li:nth-child(3){
+.social li:nth-child(3){
+    max-width: 2em !important;
     content: "\f09a";
     color: #c4302b;
     border-bottom: 4px solid #c4302b;
 }
-.social ul li:nth-child(4){
+.social li:nth-child(4){
+    max-width: 2em !important;
     content: "\f09a";
     color: #fe6d35;
     border-bottom: 4px solid #fe6d35;
 }
-.social ul li:nth-child(5){
+.social li:nth-child(5){
+    max-width: 2em !important;
     content: "\f09a";
     color: #0e76a8;
     border-bottom: 4px solid #0e76a8;
 }
-.contacts > ul > li{
-    display: inline;
-    color: lightgray;
-    margin: 0px 8px 0px 8px;
+li > a{
+    color: white !important;
+    text-decoration: none !important;
 }
-.contacts > ul > li:hover{
-    color: yellow;
-    cursor: pointer;
+li > a:hover{
+    color: var(--bs-warning) !important;
 }
 .break {
     flex-basis: 100%;
     height: 0;
 }
 .copyR{
-    margin-left: 40% !important;
     color: lightgray;
 }
 
@@ -239,11 +240,11 @@ footer{
     .social{
         margin-right: -10px !important;
     }
-    .social > ul > li{
+    .social > li{
         display: block;
         margin: 8px 0px 8px 0px;
     }
-    .contacts > ul > li{
+    .contacts > li{
         display: block;
         margin: 8px 0px 8px 0px;
     }
