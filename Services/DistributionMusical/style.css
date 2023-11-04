@@ -26,7 +26,7 @@ html {
     background-image: url(../../IMG/distMusic.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 900px;
+    min-height: 100vh;
 }
 .nav-link{
     color: var(--bs-white) !important;
@@ -47,7 +47,7 @@ html {
 
 }
 .msg-container{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 10px;
     max-width: 550px !important;
@@ -78,7 +78,55 @@ nav{
     border: #ffffff solid 1px !important;
 }
 /*==================================Main===========================================*/
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-shadow:
+        -1.5px -1.5px 0 black,
+        1.5px -1.5px 0 black,
+        -1.5px 1.5px 0 black,
+        1.5px 1.5px 0 black;
+}
+.imgPub{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.logoDist{
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+.pArtists-container > img{
+    padding: 1% !important;
+    border: 2px black solid !important;
+}
+.lLine{
+    max-width: 90% !important;
+    margin-left: 5% !important;
+}
+.first-p, .second-p, .third-p{
+    padding: 1% !important;
+    border: solid black 1.5px;
+    max-width: 29% !important;
+}
+.first-p > h4, .second-p > h4, .third-p > h4{
+    color: #0e76a8;
+}
+.flowchart-step {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
 
+.flowchart-arrow {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    text-align: center;
+    font-size: 24px;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
