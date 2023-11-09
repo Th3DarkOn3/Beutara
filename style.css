@@ -155,6 +155,23 @@ nav{
     color: black !important;
     font-weight: 550 !important;
 }
+hr{
+    color: white !important;
+}
+
+.btn-secondary:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: 550 !important;
+}
+.pArtists-container > img{
+    width: 270px !important;
+    height: 270px !important;
+}
+.promoIMG > img{
+    height: 350px !important;
+    width: auto !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
