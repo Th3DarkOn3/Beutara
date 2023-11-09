@@ -169,7 +169,7 @@ hr{
     height: 270px !important;
 }
 .promoIMG > img{
-    height: 350px !important;
+    height: 250px !important;
     width: auto !important;
 }
 /*==================================Footer==========================================*/
@@ -237,7 +237,11 @@ li > a:hover{
 @media only screen and (min-width:1600px){
     .single-artist{
         margin-left: 18% !important;
-    }    
+    }
+    .promoIMG > img{
+        height: 350px !important;
+        width: auto !important;
+    }
 }
 
 @media only screen and (min-width:992px){
