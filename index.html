@@ -11,7 +11,7 @@
         <title>Beutara</title>
     </head>
     <body>
-        <header id="header-home">
+        <header>
             <nav class="navbar navbar-expand-lg bg-dark">
                 <div class="container-fluid">
                     <img src="IMG\Logo-Beutara-Gris-dore-removebg-preview.png" alt="Logo" class="beut d-inline-block align-text-top">
@@ -64,6 +64,27 @@
               </nav>
         </header>
         <main>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4500">
+                <img src="IMG\BG.jpg" class="d-block w-100" alt="IMG">
+              </div>
+              <div class="carousel-item" data-bs-interval="4500">
+                <img src="IMG\artist\5.jpg" class="d-block w-100" alt="IMG">
+              </div>
+              <div class="carousel-item" data-bs-interval="4500">
+                <img src="IMG\artist\14.JPG" class="d-block w-100" alt="IMG">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
             <div class="text-center introPub">
                 <h1 class="title">DISTRIBUTION DE MUSIQUES ILLLIMITEE</h1>
                 <cite title="Source Title">VERS PLUS DE 220 BOUTIQUES MUSICALES EN LIGNE</cite>
@@ -103,25 +124,20 @@
                   Nos services de marketing musical sont les meilleurs pour la visibilité et la notoriété des artistes africains
                 </div>
               </div>
+          <div class="d-flex flex-lg-row flex-sm-column justify-content-evenly mt-5 mb-5 pArtists-container mb-5">
+            <img src="IMG\artist\3.png" alt="PHOTO_ARTISTE">
+            <img src="IMG\artist\4.jpeg" alt="PHOTO_ARTISTE">
+            <img src="IMG\artist\8.jpg" alt="PHOTO_ARTISTE">
+            <img src="IMG\artist\9.jpg" alt="PHOTO_ARTISTE">
+            <img src="IMG\artist\7.png" alt="PHOTO_ARTISTE">
+          </div>
           <div class="parallax">
             <div class="text-center bg-secondary p-3 rounded" style="--bs-bg-opacity: .95;">
               <h3 class="fontPub">Beutara</h3>
               <p class="fontPubMin">DISTRIBUTION EN 3 DIMENSIONS</p>
             </div>
           </div> 
-          <div class="imgPub">
-            <img src="IMG\LogoDistrubutors\youtube.svg" alt="Youtube" class="logoDist">
-            <img src="IMG\LogoDistrubutors\tiktok-square.svg" alt="Tiktok" class="logoDist">
-            <img src="IMG\LogoDistrubutors\spotify.svg" alt="Spotify" class="logoDist">
-            <img src="IMG\LogoDistrubutors\apple.svg" alt="Itunes" class="logoDist">
-          </div>
-          <div class="imgPub mb-5">
-              <img src="IMG\LogoDistrubutors\amazon.svg" alt="Amazon" class="logoDist">
-              <img src="IMG\LogoDistrubutors\deezer-logo.svg" alt="Deezer" class="logoDist">
-              <img src="IMG\LogoDistrubutors\shazam.svg" alt="Shazam" class="logoDist">
-              <img src="IMG\LogoDistrubutors\meta.svg" alt="Meta" class="logoDist">
-          </div>
-          <section class="container my-4 mt-5 mb-5" id="foto">
+          <section class="container my-4 mt-5" id="foto">
             <div class="row">
                 <div class="col-12 col-lg-5">
                     <img src="IMG\artist\1.jpg" alt="Photo/Video_Artiste" class="img-fluid">
@@ -197,13 +213,22 @@
                 </div>
               </div>
           </div>
-          <div class="d-flex flex-lg-row flex-sm-column justify-content-evenly mt-5 mb-5 pArtists-container">
-            <img src="IMG\artist\3.png" alt="PHOTO_ARTISTE">
-            <img src="IMG\artist\4.jpeg" alt="PHOTO_ARTISTE">
-            <img src="IMG\artist\8.jpg" alt="PHOTO_ARTISTE">
-            <img src="IMG\artist\9.jpg" alt="PHOTO_ARTISTE">
-            <img src="IMG\artist\7.png" alt="PHOTO_ARTISTE">
+          <div class="imgPub">
+            <img src="IMG\LogoDistrubutors\youtube.svg" alt="Youtube" class="logoDist">
+            <img src="IMG\LogoDistrubutors\tiktok-square.svg" alt="Tiktok" class="logoDist">
+            <img src="IMG\LogoDistrubutors\spotify.svg" alt="Spotify" class="logoDist">
+            <img src="IMG\LogoDistrubutors\apple.svg" alt="Itunes" class="logoDist">
           </div>
+          <div class="imgPub mb-5">
+              <img src="IMG\LogoDistrubutors\amazon.svg" alt="Amazon" class="logoDist">
+              <img src="IMG\LogoDistrubutors\deezer-logo.svg" alt="Deezer" class="logoDist">
+              <img src="IMG\LogoDistrubutors\shazam.svg" alt="Shazam" class="logoDist">
+              <img src="IMG\LogoDistrubutors\meta.svg" alt="Meta" class="logoDist">
+          </div>
+          <button type="button" class="graffica-scroll-button" onclick="scrollToTop()" title="REJOINDRE BEUTARA">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <script src="script.js"></script>
         </main>
         <footer class="border-top bg-dark">
           <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 pt-5">
