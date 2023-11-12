@@ -137,8 +137,10 @@ nav{
     letter-spacing: 0.4rem;
 }
 .lLine{
-    max-width: 90% !important;
-    margin-left: 5% !important;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
 }
 .first-p, .second-p, .third-p{
     padding: 1% !important;
@@ -164,13 +166,25 @@ hr{
     color: black !important;
     font-weight: 550 !important;
 }
+.pArtists-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+}
 .pArtists-container > img{
-    width: 270px !important;
-    height: 270px !important;
+    width: 250px !important;
+    height: 250px !important;
 }
 .promoIMG > img{
     height: 320px !important;
     width: 240px !important;
+}
+.promo-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
 }
 .graffica-scroll-button {
     position: fixed;
@@ -277,6 +291,18 @@ footer{
     .single-artist{
         margin-left: 1.5% !important;
     }
+    .lLine{
+        font-size: 10px;
+    }
+    .pArtists-container{
+        flex-direction: column;
+    }
+    .promo-buttons{
+        flex-direction: column;
+    }
+    .promo-buttons > button{
+        margin-top: 5%;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -303,12 +329,6 @@ footer{
     }
     .beut{
         width: 50%;
-    }
-    header{
-        background-image: url(IMG/BG.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 700px;
     }
     .msg-container{
         background-color: rgba(0, 0, 0, 0.8);
