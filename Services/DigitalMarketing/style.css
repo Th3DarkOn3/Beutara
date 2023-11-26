@@ -82,6 +82,37 @@ nav{
     background-color: rgba(0, 0, 0, 0.8) !important;
     border: #ffffff solid 1px !important;
 }
+#promotion_spotify{
+    margin-top: 1%;
+    background-image: url(../../IMG/artist/13.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#promotion_spotify > h1 {
+    color: var(--bs-white);
+    padding-top: 20px;
+    font-size: 150px !important;
+    font-weight: 700 !important;
+}
+#promotion_spotify > .logoDist{
+    max-height: 200px;
+    margin-top: 20px;
+}
+#promotion_spotify > h2 {
+    color: var(--bs-warning);
+    padding-top: 20px;
+    font-size: 150px !important;
+    font-weight: 700 !important;
+}
+#promotion_spotify > .beut_contact{
+    margin-left: 80%;
+    width: 300px;
+    height: auto;
+}
 /*==================================Main===========================================*/
 .box{
     display: flex;
