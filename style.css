@@ -4,6 +4,12 @@
 /*font-family: 'Oswald', sans-serif;*/
 
 /*======================================Header===================================*/
+:root{
+    --bs-warning: #cfaa58 !important;
+    --bs-white: #ffffff;
+    --bs-gray-500: #6c757d;
+}
+
 .footerLinks{
     text-decoration: none;
     color: var(--bs-gray-500);
@@ -71,7 +77,7 @@ nav{
     text-transform: uppercase !important;
 }
 .beut{
-    width: 20%;
+    width: 15%;
 }
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.8) !important;
@@ -87,6 +93,16 @@ nav{
         1.5px -1.5px 0 black,
         -1.5px 1.5px 0 black,
         1.5px 1.5px 0 black;
+}
+.dist_music_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.dist_music_buttons_container{
+    display: flex;
+    justify-content: space-evenly;
 }
 .introPub{
     margin-top: 5%;
@@ -116,6 +132,18 @@ nav{
     align-items: center;
     margin-top: 10% !important;
     margin-bottom: 10% !important;
+}
+.title_info{
+    border: solid black 1.5px;
+    padding: 1%;
+    max-width: 10%;
+    background-color: rgb(103, 103, 103);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+#title_info_2{
+    margin-left: 82% !important;
 }
 .fontPub{
     font-size: 100px !important;
@@ -269,6 +297,9 @@ footer{
 .copyR{
     color: lightgray;
 }
+.footerList > li > h4{
+    color: var(--bs-warning) !important;
+}
 
 /*WideScreen*/
 @media only screen and (min-width:1600px){
@@ -279,12 +310,19 @@ footer{
         height: 320px !important;
         width: 240px !important;
     }
+    #header-home{
+        background-image: url(IMG/BG.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 160vh;
+    }
 }
 
 @media only screen and (min-width:992px){
     .collapse{
         margin-left: 20% !important;
     }
+    
 }
 /*galaxyFold*/
 @media only screen and (max-width:670px){
@@ -302,6 +340,13 @@ footer{
     }
     .promo-buttons > button{
         margin-top: 5%;
+    }
+    .title_info{
+        max-width: 22% !important;
+        font-size: 20px;
+    }
+    #title_info_2{
+        margin-left: 78% !important;
     }
 }
 @media only screen and (max-width:1120px){

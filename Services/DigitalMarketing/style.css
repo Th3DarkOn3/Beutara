@@ -78,6 +78,46 @@ nav{
     border: #ffffff solid 1px !important;
 }
 /*==================================Main===========================================*/
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    padding: 10px;
+    border: 1px solid black !important;
+}
+.img-box > img{
+    width: 200px !important;
+}
+.text-box{
+    padding: 17px 10px 17px 10px;
+    border: 1px solid black !important;
+}
+.graffica-scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 23px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.678);
+    border: 0.5px solid black;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+}
+
+.graffica-scroll-button:hover {
+    transform: scale(1.1);
+}
+
+.graffica-scroll-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -209,7 +249,7 @@ footer{
         color: white;
         border-radius: 10px;
         max-width: 300px !important;
-        margin-top: 20% !important;
+        margin-top: 15% !important;
         margin-left: 13% !important;
     }
     .msg-container > *{
