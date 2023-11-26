@@ -114,9 +114,7 @@ nav{
     padding: 3%;
 }
 .logoDist{
-    max-width:230px;
-    max-height:95px;
-    width: auto;
+    width: 300px;
     height: auto;
 }
 .parallax {
@@ -201,8 +199,8 @@ hr{
     margin-left: 2% !important;
 }
 .pArtists-container > img{
-    width: 250px !important;
-    height: 250px !important;
+    width: 350px !important;
+    height: 350px !important;
 }
 .promoIMG > img{
     height: 320px !important;
@@ -236,6 +234,17 @@ hr{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.last_button{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+.last_button > a{
+    padding-top: 10px !important;
+    font-size: 50px !important;
+    min-width: 90% !important;
+    min-height: 100px !important;
 }
 /*==================================Footer==========================================*/
 footer{

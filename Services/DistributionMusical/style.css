@@ -4,6 +4,11 @@
 /*font-family: 'Oswald', sans-serif;*/
 
 /*======================================Header===================================*/
+:root{
+    --bs-warning: #cfaa58 !important;
+    --bs-white: #ffffff;
+    --bs-gray-500: #6c757d;
+}
 .footerLinks{
     text-decoration: none;
     color: var(--bs-gray-500);
