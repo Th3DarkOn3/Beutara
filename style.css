@@ -2,7 +2,8 @@
 /*font-family: bungee, sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 /*font-family: 'Oswald', sans-serif;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/*font-family: 'Caveat', cursive;*/
 /*======================================Header===================================*/
 :root{
     --bs-warning: #cfaa58 !important;
@@ -94,6 +95,31 @@ nav{
         -1.5px 1.5px 0 black,
         1.5px 1.5px 0 black;
 }
+.btn_perso:nth-child(1){
+    color: var(--bs-white) !important;
+    background-color: rgb(170, 170, 170) !important;
+}
+.btn_perso:nth-child(2){
+    color: var(--bs-white) !important;
+    background-color: rgb(140, 140, 140) !important;
+}
+.btn_perso:nth-child(3){
+    color: var(--bs-warning) !important;
+    background-color: rgb(115, 115, 115) !important;
+}
+.btn_perso:nth-child(4){
+    color: var(--bs-warning) !important;
+    background-color: rgb(75, 75, 75) !important;
+}
+.btn_perso:nth-child(5){
+    color: var(--bs-warning) !important;
+    background-color: rgb(0, 0, 0) !important;
+}
+.btn_perso:hover{
+    color: black !important;
+    background-color: white !important;
+    border: solid black 1px !important;
+}
 .dist_music_container{
     display: flex;
     justify-content: center;
@@ -118,7 +144,7 @@ nav{
     height: auto;
 }
 .parallax {
-    background-image: url(IMG/3425171.jpg);
+    background-image: url(./IMG/Parallax.png);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -136,7 +162,7 @@ nav{
     padding: 1%;
     max-width: 10%;
     background-color: rgb(103, 103, 103);
-    color: white;
+    color: var(--bs-warning);
     font-weight: 600;
     font-size: 20px;
 }
@@ -144,11 +170,7 @@ nav{
     margin-left: 82% !important;
 }
 .fontPub{
-    font-size: 100px !important;
-    opacity: 0.6;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
+    width: 700px;
     z-index: 0 !important;
 }
 .fontPubMin{
@@ -156,9 +178,13 @@ nav{
     margin-top: -42px !important;
     font-size: 50px !important;
     font-weight: 600;
-    color: black;
-    text-shadow: 3px 3px 0 lightgray, 6px 6px 0 rgb(150, 150, 150),
-    9px 9px rgb(91, 91, 91), 12px 12px 0 black;
+    color: white !important;
+    text-shadow: 3px 3px 0 black,
+                6px 6px 0 rgb(91,91,91),
+                9px 9px rgb(150,150,150), 
+                12px 12px 0 white;
+    /* text-shadow: 3px 3px 0 lightgray, 6px 6px 0 rgb(150, 150, 150),
+    9px 9px rgb(91, 91, 91), 12px 12px 0 black; */
     animation: shadows 1.2s ease-in infinite;
     letter-spacing: 0.4rem;
 }
@@ -170,7 +196,6 @@ nav{
 }
 .first-p, .second-p, .third-p{
     padding: 1% !important;
-    border: solid black 1.5px;
     max-width: 29% !important;
     color: #3b5998;
     font-weight: 550;
@@ -241,10 +266,13 @@ hr{
     margin: 2% 0 2% 0;
 }
 .last_button > a{
-    padding-top: 10px !important;
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
     font-size: 50px !important;
-    min-width: 90% !important;
-    min-height: 100px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
 }
 /*==================================Footer==========================================*/
 footer{
