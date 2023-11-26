@@ -31,7 +31,7 @@ html {
     background-image: url(../../IMG/DistMusicBG.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 110vh;
+    min-height: 150vh;
 }
 .nav-link{
     color: var(--bs-white) !important;
