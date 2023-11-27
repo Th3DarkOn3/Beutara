@@ -171,6 +171,7 @@ nav{
 }
 .fontPub{
     width: 700px;
+    filter: drop-shadow(rgb(0, 0, 0) 1rem 1rem 1rem);
     z-index: 0 !important;
 }
 .fontPubMin{

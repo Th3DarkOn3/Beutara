@@ -159,7 +159,7 @@ nav{
     padding: 1%;
     max-width: 10%;
     background-color: rgb(103, 103, 103);
-    color: white;
+    color: var(--bs-warning);
     font-weight: 600;
     font-size: 20px;
 }
@@ -201,6 +201,51 @@ nav{
     padding: 20px;
     width: 100%;
 }
+.music-card {
+    display: flex;
+    max-width: 30%;
+    margin-left: 35%;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 1%;
+    height: 150px; /* Adjust as needed */
+    background-color: #003455; /* Placeholder color */
+  }
+  
+  .album-art {
+    background-image: url('../../IMG/artist/500x500.jpg');
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  .artist {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--bs-warning);
+  }
+  
+  .song-title {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .country {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .music-note {
+    padding-left: 20px;
+  }
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -314,6 +359,9 @@ footer{
     }
     .reviews_continer{
         flex-direction: column;
+    }
+    .artist{
+        font-size: 20px;
     }
 }
 @media only screen and (max-width:1120px){
