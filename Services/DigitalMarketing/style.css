@@ -201,10 +201,14 @@ nav{
     padding: 20px;
     width: 100%;
 }
+.r_sociaux{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .music-card {
     display: flex;
     max-width: 30%;
-    margin-left: 35%;
     border-radius: 10px;
     align-items: center;
     margin-bottom: 1%;
@@ -224,28 +228,63 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
   .artist {
-    font-size: 25px;
+    font-size: 100%;
     font-weight: bold;
     color: var(--bs-warning);
   }
   
   .song-title {
-    font-size: 20px;
+    font-size: 80%;
     color: #ffffff;
   }
   
   .country {
-    font-size: 18px;
+    font-size: 70%;
     color: #888;
   }
-  
-  .music-note {
-    padding-left: 20px;
-  }
+.r_sociaux_p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-color: #003455;
+}
+.r_sociaux_p > p{
+    color: white;
+}
+.r_sociaux_p > a{
+    font-weight: 650;
+    max-width: 220px;
+    color: var(--bs-warning);
+}
+.r_sociaux_p > img{
+    width: 200px;
+    height: auto;
+}
+.r_publiques{
+    background-image: url(../../IMG/Netflix.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    min-height: 50vh;
+}
+.r_publiques > h1{
+    color: var(--bs-warning);
+    margin-left: 30%;
+    font-size: 300%;
+    font-weight: 700;
+}
+.r_publiques > ul > li{
+    color: rgb(180, 180, 180);
+    font-size: 150%;
+    font-weight: 700;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -359,9 +398,6 @@ footer{
     }
     .reviews_continer{
         flex-direction: column;
-    }
-    .artist{
-        font-size: 20px;
     }
 }
 @media only screen and (max-width:1120px){
