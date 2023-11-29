@@ -164,7 +164,7 @@ nav{
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 100%;
 }
 #title_info_2{
     margin-left: 82% !important;
@@ -186,7 +186,7 @@ nav{
                 12px 12px 0 white;
     /* text-shadow: 3px 3px 0 lightgray, 6px 6px 0 rgb(150, 150, 150),
     9px 9px rgb(91, 91, 91), 12px 12px 0 black; */
-    animation: shadows 1.2s ease-in infinite;
+    animation: shadows 2s ease-in infinite;
     letter-spacing: 0.4rem;
 }
 .lLine{
@@ -275,6 +275,10 @@ hr{
     min-width: 100% !important;
     min-height: 400px !important;
 }
+.youtube_video{
+    width: 1920px !important;
+    height: 1080px !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -356,9 +360,16 @@ footer{
     }
 }
 
-@media only screen and (min-width:992px){
+@media only screen and (max-width:1210px){
     .collapse{
         margin-left: 20% !important;
+    }
+    .title_info{
+        font-size: 80%;
+    }
+    .youtube_video{
+        width: 850px !important;
+        height: 478px !important;
     }
     
 }
@@ -381,10 +392,13 @@ footer{
     }
     .title_info{
         max-width: 22% !important;
-        font-size: 20px;
     }
     #title_info_2{
         margin-left: 78% !important;
+    }
+    .youtube_video{
+        width: 650px !important;
+        height: 365px !important;
     }
 }
 @media only screen and (max-width:1120px){
