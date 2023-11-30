@@ -368,7 +368,6 @@ footer{
 .footerList > li > h4{
     color: var(--bs-warning) !important;
 }
-
 /*WideScreen*/
 @media only screen and (min-width:1600px){
     .single-artist{
