@@ -263,6 +263,10 @@ nav{
     max-width: 220px;
     color: var(--bs-warning);
 }
+.r_sociaux_p > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
 .r_sociaux_p > img{
     width: 200px;
     height: auto;
@@ -304,6 +308,34 @@ nav{
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+}
+.imgPub{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.logoDist{
+    width: 300px;
+    height: auto;
+}
+.pArtists-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+}
+.pArtists-container > img{
+    width: 350px !important;
+    height: 350px !important;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 70px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 200px !important;
 }
 /*==================================Footer==========================================*/
 footer{
