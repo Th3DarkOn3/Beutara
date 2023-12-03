@@ -302,23 +302,7 @@ footer{
     .pArtists-container{
         flex-direction: column;
     }
-    .triangle{
-        height: 700px !important;
-        background-size: 50% 100%;
-    }
-    .triangle-text{
-        font-size: 12px;
-    }
-    .poligone{
-        height: 700px !important;
-        background-size: 65% 100%;
-    }
-    .poligone-text{
-        font-size: 12px;
-    }
-    .cards-container{
-        flex-direction: column;
-    }
+    
 }
 @media only screen and (max-width:1120px){
     .parallax{

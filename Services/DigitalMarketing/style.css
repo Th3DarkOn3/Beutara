@@ -95,7 +95,7 @@ nav{
 #promotion_spotify > h1 {
     color: var(--bs-white);
     padding-top: 20px;
-    font-size: 150px !important;
+    font-size: 1000% !important;
     font-weight: 700 !important;
 }
 #promotion_spotify > .logoDist{
@@ -105,7 +105,7 @@ nav{
 #promotion_spotify > h2 {
     color: var(--bs-warning);
     padding-top: 20px;
-    font-size: 150px !important;
+    font-size: 900% !important;
     font-weight: 700 !important;
 }
 #promotion_spotify > .beut_contact{
@@ -280,10 +280,11 @@ nav{
 }
 .r_publiques > h1{
     color: var(--bs-warning);
-    margin-left: 30%;
+    margin-left: 45%;
     font-size: 300%;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.6);
+    max-width: 50% !important;
     border-radius: 10px;
     padding: 1%;
 
@@ -303,11 +304,21 @@ nav{
     width: 200px !important;
 }
 .glow {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 65% !important;
+    padding: 1% !important;
+    margin-left: 25%;
     font-size: 300% !important;
+    text-transform: uppercase !important;
     color: #fff;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+}
+.yt-pub{
+    display: flex !important;
+    justify-content: center !important; 
+
 }
 .imgPub{
     display: flex;
@@ -334,8 +345,48 @@ nav{
     font-family: 'Caveat', cursive !important;
     padding-top: 70px !important;
     font-size: 50px !important;
-    min-width: 100% !important;
+    min-width: 96% !important;
+    margin-left: 2% !important;
     min-height: 200px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
+.triangle {
+    width: auto;
+    height: 500px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.triangle-text{
+    text-align: right;
+    margin-left: 50%;
+    max-width: 50%;
+}
+.poligone{
+    width: auto;
+    height: 500px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.poligone-text{
+    text-align: left;
+    margin-right: 50%;
+    max-width: 50%;
+}
+.poligone-end{
+    width: auto;
+    height: 50px;
+    background-color: #4472c4;
+    
+}
+.radiants-container{
+    max-width: 98% !important;
+    margin-left: 1% !important;
 }
 /*==================================Footer==========================================*/
 footer{
@@ -450,6 +501,54 @@ footer{
     .reviews_continer{
         flex-direction: column;
     }
+    .user-image {
+        width: 150px;
+        height: 150px;
+    }
+    .r_sociaux{
+        flex-direction: column;
+    }
+    .title_info{
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
+    }
+    #promotion_spotify > h1 {
+        font-size: 500% !important;
+    }
+    #promotion_spotify > h2 {
+        font-size: 400% !important;
+    }
+    .beut_contact{
+        margin-left: 10% !important;
+    }
+    .music-card {
+        max-width: 96%; 
+        margin-left: 2%;
+    }
+    .glow {
+        font-size: 100% !important;
+        margin-left: 2% !important;
+        max-width: 96% !important;
+    }
+    .triangle{
+        height: 750px !important;
+        background-size: 50% 100%;
+    }
+    .triangle-text{
+        font-size: 12px;
+    }
+    .poligone{
+        height: 700px !important;
+        background-size: 65% 100%;
+    }
+    .poligone-text{
+        font-size: 12px;
+    }
+    .cards-container{
+        flex-direction: column;
+    }
+
 }
 @media only screen and (max-width:1120px){
     .parallax{
