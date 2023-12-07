@@ -52,7 +52,7 @@ html {
 
 }
 .msg-container{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 10px;
     max-width: 550px !important;
@@ -83,7 +83,135 @@ nav{
     border: #ffffff solid 1px !important;
 }
 /*==================================Main===========================================*/
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-shadow:
+        -1.5px -1.5px 0 black,
+        1.5px -1.5px 0 black,
+        -1.5px 1.5px 0 black,
+        1.5px 1.5px 0 black;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    padding: 50px;
+}
+.img-box > img{
+    width: 200px !important;
+}
+.text-box{
+    padding: 8px 10px 8px 20px;
+}
+.administration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1% !important;
+}
+.administration > div > *{
+    border: solid black 1.5px;
+    padding: 10px !important;
+}
+.imgPub{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.logoDist{
+    width: 300px;
+    height: auto;
+}
+.first-p, .second-p, .third-p{
+    padding: 1% !important;
+    max-width: 29% !important;
+}
+.first-p > h4, .second-p > h4, .third-p > h4{
+    color: #0e76a8;
+}
+.graffica-scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.678);
+    border: 0.5px solid black;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+}
 
+.graffica-scroll-button:hover {
+    transform: scale(1.1);
+}
+
+.graffica-scroll-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.triangle {
+    width: auto;
+    height: 800px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.triangle-text{
+    text-align: right;
+    margin-left: 50%;
+    max-width: 50%;
+}
+.poligone{
+    width: auto;
+    height: 650px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.poligone-text{
+    text-align: left;
+    margin-right: 50%;
+    max-width: 50%;
+}
+.poligone-end{
+    width: auto;
+    height: 100px;
+    background-color: #4472c4;
+    z-index: -999999 !important;
+    
+}
+.first-p, .second-p, .third-p{
+    padding: 1% !important;
+    border: solid black 1.5px;
+    max-width: 29% !important;
+    color: #3b5998;
+    font-weight: 550;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -144,7 +272,9 @@ footer{
 .copyR{
     color: lightgray;
 }
-
+.footerList > li > h4{
+    color: var(--bs-warning) !important;
+}
 /*WideScreen*/
 @media only screen and (min-width:1600px){
     .single-artist{
@@ -159,9 +289,64 @@ footer{
 }
 /*galaxyFold*/
 @media only screen and (max-width:670px){
+    .title{
+        font-size: 25px;
+    }
+    
+    .box{
+        flex-direction: column;
+    }
+    .text-box{
+        border: none !important;
+    }
+    .img-box{
+        border: none !important;
+    }
+    .administration{
+        flex-direction: column;
+    }
     .single-artist{
         margin-left: 1.5% !important;
     }
+    .lLine{
+        font-size: 10px;
+    }
+    .first-p > h4, .second-p > h4, .third-p > h4{
+        font-size: 12.4px;
+    }
+    .pArtists-container{
+        flex-direction: column;
+    }
+    .pArtists-container > img{
+        width: 250px !important;
+        height: 250px !important;
+        margin-top: 10% !important;
+    }
+    .triangle{
+        height: 2000px;
+    }
+    
+    .triangle{
+        height: 750px !important;
+        background-size: 50% 100%;
+    }
+    .triangle-text{
+        font-size: 12px;
+    }
+    .poligone{
+        height: 700px !important;
+        background-size: 65% 100%;
+    }
+    .poligone-text{
+        font-size: 12px;
+    }
+    .cards-container{
+        flex-direction: column;
+    }
+    .card{
+        margin-top: 10% !important;
+    }
+    
 }
 @media only screen and (max-width:1120px){
     .parallax{

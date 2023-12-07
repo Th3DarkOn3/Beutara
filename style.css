@@ -164,7 +164,7 @@ nav{
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 100%;
+    font-size: 20px;
 }
 #title_info_2{
     margin-left: 82% !important;
@@ -184,8 +184,6 @@ nav{
                 6px 6px 0 rgb(91,91,91),
                 9px 9px rgb(150,150,150), 
                 12px 12px 0 white;
-    /* text-shadow: 3px 3px 0 lightgray, 6px 6px 0 rgb(150, 150, 150),
-    9px 9px rgb(91, 91, 91), 12px 12px 0 black; */
     animation: shadows 2s ease-in infinite;
     letter-spacing: 0.4rem;
 }
@@ -359,20 +357,6 @@ footer{
         min-height: 160vh;
     }
 }
-
-@media only screen and (max-width:1210px){
-    .collapse{
-        margin-left: 20% !important;
-    }
-    .title_info{
-        font-size: 80%;
-    }
-    .youtube_video{
-        width: 850px !important;
-        height: 478px !important;
-    }
-    
-}
 /*galaxyFold*/
 @media only screen and (max-width:670px){
     .single-artist{
@@ -391,13 +375,15 @@ footer{
         margin-top: 5%;
     }
     .title_info{
-        max-width: 22% !important;
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
     }
     #title_info_2{
-        margin-left: 78% !important;
+        margin-left: 0 !important;
     }
     .youtube_video{
-        width: 650px !important;
+        width: 390px !important;
         height: 365px !important;
     }
     .dist_music_buttons_container{
@@ -406,6 +392,9 @@ footer{
     .dist_music_buttons_container > a{
         max-width: 80%;
         margin-left: 10%;
+    }
+    .fontPub{
+        width: 385px;
     }
 }
 @media only screen and (max-width:1120px){
@@ -471,6 +460,9 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .btn_perso{
+        margin-bottom: 5%;
     }
 }
 
