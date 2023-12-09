@@ -368,6 +368,9 @@ footer{
     .pArtists-container{
         flex-direction: column;
     }
+    .pArtists-container > img{
+        margin-top: 10% !important;
+    }
     .promo-buttons{
         flex-direction: column;
     }
@@ -395,6 +398,10 @@ footer{
     }
     .fontPub{
         width: 385px;
+    }
+    .logoDist{
+        width: 200px;
+        height: auto;
     }
 }
 @media only screen and (max-width:1120px){

@@ -24,3 +24,10 @@ else{
         element.querySelector('a').querySelector('i').style.color="lightgrey";
     }
 }
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}

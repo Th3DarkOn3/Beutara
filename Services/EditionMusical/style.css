@@ -212,6 +212,55 @@ nav{
     color: black !important;
     background-color: white !important;
 }
+.container-cat{
+    max-width: 96% !important;
+    margin-left: 2% !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title-cat{
+    padding: 1%;
+}
+.title-cat > h3{
+    font-size: 300%;
+    color: var(--bs-warning);
+}
+.content-cat{
+    padding: 1% !important;
+    background-color: rgba(0, 183, 255, 0.5);
+    border-radius: 10px;
+}
+.content-cat > p{
+    font-size: 130%;
+    font-weight: 500;
+}
+.artists-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.artists-img > img{
+    width: 500px !important;
+    height: auto !important;
+}
+.title_info{
+    border: solid black 1.5px;
+    padding: 1%;
+    max-width: 10%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 20px;
+}
+.content-droit{
+    padding: 1% !important;
+    background-color: rgba(255, 237, 156, 0.5);
+    border-radius: 10px;
+}
+.content-droit > p{
+    font-size: 130%;
+    font-weight: 500;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -346,7 +395,41 @@ footer{
     .card{
         margin-top: 10% !important;
     }
-    
+    .container-cat{
+        flex-direction: column;
+    }
+    .title-cat > h3{
+        font-size: 250%;
+    }
+    .content-cat{
+        padding: 5% !important;
+    }
+    .content-cat > p{
+        font-size: 100%;
+        font-weight: 480;
+    }
+    .artists-img{
+        flex-direction: column;
+    }
+    .artists-img > img{
+        margin-top: 10% !important;
+        width: 300px !important;
+    }
+    #container-cat{
+        flex-direction: column-reverse !important;
+    }
+    .title_info{
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
+    }
+    .content-droit{
+        padding: 5% !important;
+    }
+    .content-droit > p{
+        font-size: 100%;
+        font-weight: 480;
+    }    
 }
 @media only screen and (max-width:1120px){
     .parallax{

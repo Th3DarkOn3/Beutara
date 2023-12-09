@@ -202,7 +202,6 @@ nav{
 }
 .first-p, .second-p, .third-p{
     padding: 1% !important;
-    border: solid black 1.5px;
     max-width: 29% !important;
     color: #3b5998;
     font-weight: 550;
@@ -344,7 +343,10 @@ footer{
     .card{
         margin-top: 10% !important;
     }
-    
+    .logoDist{
+        width: 200px;
+        height: auto;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
