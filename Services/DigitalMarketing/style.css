@@ -585,6 +585,9 @@ footer{
         width: 200px;
         height: auto;
     }
+    .pArtists-container > img{
+        margin-top: 10% !important;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
