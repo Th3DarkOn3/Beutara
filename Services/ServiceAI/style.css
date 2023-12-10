@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@500&display=swap');
+/*font-family: bungee, sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+
+/*======================================Header===================================*/
+:root{
+    --bs-warning: #cfaa58 !important;
+    --bs-white: #ffffff;
+    --bs-gray-500: #6c757d;
+}
+.footerLinks{
+    text-decoration: none;
+    color: var(--bs-gray-500);
+}
+.footerLinks:hover{
+    color: var(--bs-warning);
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+#header-home{
+    background-image: url(../../IMG/SeviceAI.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.nav-link{
+    color: var(--bs-white) !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+.active:hover{
+    color: black !important;
+    background-color: white;
+}
+.dropdown-item:hover{
+    color: black !important;
+}
+.title, .navbar-toggler-icon{
+    color: var(--bs-warning);
+    text-transform: uppercase;
+
+}
+.msg-container{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 10px;
+    max-width: 550px !important;
+    margin-top: 25% !important;
+    margin-left: 5% !important;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.msg-container > *{
+    max-width: 500px !important;
+}
+.msg-title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--bs-warning);
+}
+.msg{
+    font-size: 18px;
+    font-weight: 500;
+}
+nav{
+    text-transform: uppercase !important;
+}
+.beut{
+    width: 20%;
+}
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border: #ffffff solid 1px !important;
+}
+#promotion_spotify{
+    margin-top: 1%;
+    background-image: url(../../IMG/artist/13.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#promotion_spotify > h1 {
+    color: var(--bs-white);
+    padding-top: 20px;
+    font-size: 1000% !important;
+    font-weight: 700 !important;
+}
+#promotion_spotify > .logoDist{
+    max-height: 200px;
+    margin-top: 20px;
+}
+#promotion_spotify > h2 {
+    color: var(--bs-warning);
+    padding-top: 20px;
+    font-size: 900% !important;
+    font-weight: 700 !important;
+}
+#promotion_spotify > .beut_contact{
+    margin-left: 80%;
+    width: 300px;
+    height: auto;
+}
+/*==================================Main===========================================*/
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    padding: 50px;
+}
+.img-box > img{
+    width: 200px !important;
+}
+.text-box{
+    padding: 8px 10px 8px 20px;
+}
+.graffica-scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 23px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.678);
+    border: 0.5px solid black;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+}
+
+.graffica-scroll-button:hover {
+    transform: scale(1.1);
+}
+
+.graffica-scroll-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title_info{
+    border: solid black 1.5px;
+    padding: 1%;
+    max-width: 10%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 20px;
+}
+.reviews_continer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+.stars { 
+    color: #cfaa58; font-size: 54px; 
+    margin-bottom: 5px; 
+}
+.user-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 25px;
+    color: #000c15;
+    font-weight: bold;
+}
+
+.review-text {
+    font-size: 22px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.review-box {
+    padding: 20px;
+    width: 100%;
+}
+.r_sociaux{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.music-card {
+    display: flex;
+    max-width: 30%;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 1%;
+    height: 150px; /* Adjust as needed */
+    background-color: #003455; /* Placeholder color */
+  }
+  
+  .album-art {
+    background-image: url('../../IMG/artist/500x500.jpg');
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .artist {
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--bs-warning);
+  }
+  
+  .song-title {
+    font-size: 80%;
+    color: #ffffff;
+  }
+  
+  .country {
+    font-size: 70%;
+    color: #888;
+  }
+.r_sociaux_p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-color: #003455;
+}
+.r_sociaux_p > p{
+    color: white;
+}
+.r_sociaux_p > a{
+    font-weight: 650;
+    max-width: 220px;
+    color: var(--bs-warning);
+}
+.r_sociaux_p > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
+.r_sociaux_p > img{
+    width: 200px;
+    height: auto;
+}
+.r_publiques{
+    background-image: url(../../IMG/Netflix.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    min-height: 50vh;
+}
+.r_publiques > h1{
+    color: var(--bs-warning);
+    margin-left: 45%;
+    font-size: 300%;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 50% !important;
+    border-radius: 10px;
+    padding: 1%;
+
+}
+.r_publiques > ul{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 25%;
+    padding: 1%;
+}
+.r_publiques > ul > li{
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: 700;
+}
+.r_publiques > img{
+    width: 200px !important;
+}
+.glow {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 65% !important;
+    padding: 1% !important;
+    margin-left: 25%;
+    font-size: 300% !important;
+    text-transform: uppercase !important;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.yt-pub{
+    display: flex !important;
+    justify-content: center !important; 
+
+}
+.imgPub{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+.logoDist{
+    width: 300px;
+    height: auto;
+}
+.pArtists-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+}
+.pArtists-container > img{
+    width: 350px !important;
+    height: 350px !important;
+}
+.last_button{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
+.triangle {
+    width: auto;
+    height: 800px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.triangle-text{
+    text-align: right;
+    margin-left: 50%;
+    max-width: 50%;
+}
+.poligone{
+    width: auto;
+    height: 650px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.poligone-text{
+    text-align: left;
+    margin-right: 50%;
+    max-width: 50%;
+}
+.poligone-end{
+    width: auto;
+    height: 50px;
+    background-color: #4472c4;
+    
+}
+.radiants-container{
+    max-width: 98% !important;
+    margin-left: 1% !important;
+}
+.lLine{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+}
+.first-p, .second-p, .third-p{
+    padding: 1% !important;
+    max-width: 29% !important;
+    color: #3b5998;
+    font-weight: 550;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+/*==================================Footer==========================================*/
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.social > li{
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline;
+}
+.social > li > a > i{
+    font-size: 2em;
+    color: lightgray;
+}
+.social li:nth-child(1){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #3b5998;
+    border-bottom: 4px solid #3b5998;
+}
+.social li:nth-child(2){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #dd2a7b;
+    border-bottom: 4px solid #dd2a7b;
+}
+.social li:nth-child(3){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #c4302b;
+    border-bottom: 4px solid #c4302b;
+}
+.social li:nth-child(4){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #fe6d35;
+    border-bottom: 4px solid #fe6d35;
+}
+.social li:nth-child(5){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #0e76a8;
+    border-bottom: 4px solid #0e76a8;
+}
+.footerList > li > a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.footerList > li > a:hover{
+    color: var(--bs-warning) !important;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+.copyR{
+    color: lightgray;
+}
+.footerList > li > h4{
+    color: var(--bs-warning) !important;
+}
+/*WideScreen*/
+@media only screen and (min-width:1600px){
+    .single-artist{
+        margin-left: 18% !important;
+    }
+    .promoIMG > img{
+        height: 320px !important;
+        width: 240px !important;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .collapse{
+        margin-left: 20% !important;
+    }
+}
+/*galaxyFold*/
+@media only screen and (max-width:670px){
+    .single-artist{
+        margin-left: 1.5% !important;
+    }
+    .lLine{
+        font-size: 10px;
+    }
+    .pArtists-container{
+        flex-direction: column;
+    }
+    .promo-buttons{
+        flex-direction: column;
+    }
+    .promo-buttons > button{
+        margin-top: 5%;
+    }
+    #header-home{
+        background-size: 750px;
+        background-repeat: no-repeat;
+        min-height: 60vh;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .text-box{
+        border: none !important;
+    }
+    .img-box{
+        border: none !important;
+    }
+    .reviews_continer{
+        flex-direction: column;
+    }
+    .user-image {
+        width: 150px;
+        height: 150px;
+    }
+    .r_sociaux{
+        flex-direction: column;
+    }
+    .title_info{
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
+    }
+    #promotion_spotify > h1 {
+        font-size: 500% !important;
+    }
+    #promotion_spotify > h2 {
+        font-size: 400% !important;
+    }
+    .beut_contact{
+        margin-left: 10% !important;
+    }
+    .music-card {
+        max-width: 96%; 
+        margin-left: 2%;
+    }
+    .glow {
+        font-size: 100% !important;
+        margin-left: 2% !important;
+        max-width: 96% !important;
+    }
+    .triangle{
+        height: 750px !important;
+        background-size: 50% 100%;
+    }
+    .triangle-text{
+        font-size: 12px;
+    }
+    .poligone{
+        height: 700px !important;
+        background-size: 65% 100%;
+    }
+    .poligone-text{
+        font-size: 12px;
+    }
+    .cards-container{
+        flex-direction: column;
+    }
+    .r_publiques > h1{
+        margin-top: 1% !important;
+        font-size: 200% !important;
+        margin-left: 0% !important;
+        max-width: 100% !important;
+    }
+    .r_publiques > ul{
+        min-width: 50% !important;
+    }
+    .r_publiques > img{
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        margin-bottom: 1% !important;
+        padding: 0 2% 0 2% !important;
+        margin-left: 45% !important;
+    }
+    .logoDist{
+        width: 200px;
+        height: auto;
+    }
+    .pArtists-container > img{
+        margin-top: 10% !important;
+    }
+}
+@media only screen and (max-width:1120px){
+    .parallax{
+        width:99%; 
+        padding:10px;
+        box-sizing: border-box;
+        background-attachment: scroll;
+        background-position: center;
+        min-height: 300px;
+        background-size: cover;
+        margin-bottom: 10%;
+    }
+    .fontPub{
+        font-size: 50px !important;
+    }
+    .fontPubMin{        
+        margin-top: -25px !important;
+        font-size: 20px !important;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .beut{
+        width: 50%;
+    }
+    .msg-container{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        border-radius: 10px;
+        max-width: 300px !important;
+        margin-top: 15% !important;
+        margin-left: 13% !important;
+    }
+    .msg-container > *{
+        max-width: 250px !important;
+    }
+    .imgPub{
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        padding: 3%;
+    }
+    .logoDist{
+        margin-top: 30px !important;
+        max-height:230px;
+    }
+    .social{
+        margin-right: -10px !important;
+    }
+    .social > li{
+        display: block;
+        margin: 8px 0px 8px 0px;
+    }
+    .contacts > ul > li{
+        display: block;
+        margin: 8px 0px 8px 0px;
+    }
+    .copyR{
+        font-size: 10px;
+        margin-left: 25% !important;
+    }
+    .cards-services{
+        flex-direction: column;
+    }
+}
+
+/* ===============================Animations============================================ */
+@keyframes shadows {
+    0% {
+    text-shadow: none;
+    }
+    10% {
+    transform: translate(-3px, -3px);
+    text-shadow: 3px 3px 0 lightgrey;
+    }
+    20% {
+    transform: translate(-6px, -6px);
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150);
+    }
+    30% {
+    transform: translate(-9px, -9px);
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
+    }
+    40% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    50% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    60% {
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    70% {
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
+    }
+    80% {
+    text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150);
+    }
+    90% {
+    text-shadow: 3px 3px 0 lightgrey;
+    }
+    100% {
+    text-shadow: none;
+    }
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--bs-warning), 0 0 40px var(--bs-warning), 0 0 50px var(--bs-warning), 0 0 60px var(--bs-warning), 0 0 70px var(--bs-warning);
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px var(--bs-warning), 0 0 40px var(--bs-warning), 0 0 50px var(--bs-warning), 0 0 60px var(--bs-warning), 0 0 70px var(--bs-warning), 0 0 80px var(--bs-warning);
+    }
+}
