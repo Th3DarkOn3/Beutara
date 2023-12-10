@@ -10,7 +10,6 @@
     --bs-white: #ffffff;
     --bs-gray-500: #6c757d;
 }
-
 .footerLinks{
     text-decoration: none;
     color: var(--bs-gray-500);
@@ -30,10 +29,10 @@ html {
     background-color: transparent !important;
 }
 #header-home{
-    background-image: url(IMG/BG.jpg);
+    background-image: url(../../IMG/DistMusicBG.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 .nav-link{
     color: var(--bs-white) !important;

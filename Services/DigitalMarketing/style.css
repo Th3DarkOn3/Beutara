@@ -565,7 +565,26 @@ footer{
     .cards-container{
         flex-direction: column;
     }
-
+    .r_publiques > h1{
+        margin-top: 1% !important;
+        font-size: 200% !important;
+        margin-left: 0% !important;
+        max-width: 100% !important;
+    }
+    .r_publiques > ul{
+        min-width: 50% !important;
+    }
+    .r_publiques > img{
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        margin-bottom: 1% !important;
+        padding: 0 2% 0 2% !important;
+        margin-left: 45% !important;
+    }
+    .logoDist{
+        width: 200px;
+        height: auto;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -637,56 +656,56 @@ footer{
 /* ===============================Animations============================================ */
 @keyframes shadows {
     0% {
-      text-shadow: none;
+    text-shadow: none;
     }
     10% {
-      transform: translate(-3px, -3px);
-      text-shadow: 3px 3px 0 lightgrey;
+    transform: translate(-3px, -3px);
+    text-shadow: 3px 3px 0 lightgrey;
     }
     20% {
-      transform: translate(-6px, -6px);
-      text-shadow: 3px 3px 0 lightgrey,
+    transform: translate(-6px, -6px);
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150);
     }
     30% {
-      transform: translate(-9px, -9px);
-      text-shadow: 3px 3px 0 lightgrey,
+    transform: translate(-9px, -9px);
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
     }
     40% {
-      transform: translate(-12px, -12px);
-      text-shadow: 3px 3px 0 lightgrey,
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
         12px 12px 0 black;
     }
     50% {
-      transform: translate(-12px, -12px);
-      text-shadow: 3px 3px 0 lightgrey,
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
         12px 12px 0 black;
     }
     60% {
-      text-shadow: 3px 3px 0 lightgrey,
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
         12px 12px 0 black;
     }
     70% {
-      text-shadow: 3px 3px 0 lightgrey,
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
     }
     80% {
-      text-shadow: 3px 3px 0 lightgrey,
+    text-shadow: 3px 3px 0 lightgrey,
         6px 6px 0 rgb(150, 150, 150);
     }
     90% {
-      text-shadow: 3px 3px 0 lightgrey;
+    text-shadow: 3px 3px 0 lightgrey;
     }
     100% {
-      text-shadow: none;
+    text-shadow: none;
     }
-  }
+}
 
-  @-webkit-keyframes glow {
+@-webkit-keyframes glow {
     from {
         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--bs-warning), 0 0 40px var(--bs-warning), 0 0 50px var(--bs-warning), 0 0 60px var(--bs-warning), 0 0 70px var(--bs-warning);
     }

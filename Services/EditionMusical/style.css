@@ -252,6 +252,13 @@ nav{
     font-weight: 600;
     font-size: 20px;
 }
+.container-tv{
+    max-width: 98% !important;
+    margin-left: 1% !important;
+    display: flex;
+    justify-content: space-between;
+
+}
 .content-droit{
     padding: 1% !important;
     background-color: rgba(255, 237, 156, 0.5);
@@ -260,6 +267,114 @@ nav{
 .content-droit > p{
     font-size: 130%;
     font-weight: 500;
+}
+.container-netflix{
+    min-width: 60% !important;
+    background-image: url(../../IMG/Netflix.png);
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+}
+.container-netflix > h1{
+    color: var(--bs-warning);
+    margin-left: 45%;
+    font-size: 300%;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 50% !important;
+    border-radius: 10px;
+    padding: 1%;
+
+}
+.container-netflix > ul{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 25%;
+    padding: 1%;
+}
+.container-netflix > ul > li{
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: 700;
+}
+.container-netflix > img{
+    width: 200px !important;
+    height: auto !important;
+}
+.container-estelle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1% !important;
+    min-width: 40% !important;
+}
+.container-estelle > img{
+    width: 96% !important;
+    height: auto !important;
+}
+.estelle-text{
+    margin-left: 1% !important;
+    max-width: 98% !important;
+}
+.estelle-text > h4{
+    color: var(--bs-warning);
+    font-size: 200%;
+    font-weight: 700;
+}
+.estelle-text > p{
+    font-size: 150%;
+    font-weight: 450;
+}
+.glow {
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 65% !important;
+    padding: 1% !important;
+    margin-left: 25%;
+    font-size: 300% !important;
+    text-transform: uppercase !important;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.catalogue{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1% !important;
+    max-width: 96% !important;
+}
+.photo-cat{
+    width: 24% !important;
+    height: 24% !important;
+}
+.photo-cat > img{
+    width: 100% !important;
+    height: auto !important;
+}
+.poligone-end{
+    width: auto;
+    height: 50px;
+    background-color: #4472c4;
+    
+}
+.last_button{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
 }
 /*==================================Footer==========================================*/
 footer{
@@ -429,7 +544,44 @@ footer{
     .content-droit > p{
         font-size: 100%;
         font-weight: 480;
-    }    
+    }
+    .container-tv{
+        margin-left: -4px !important;
+        flex-direction: column !important;
+        max-width: 100% !important;
+    }
+    .container-estelle{
+        margin-top: 5% !important;
+    }
+    .container-estelle > img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .glow {
+        font-size: 100% !important;
+        margin-left: 2% !important;
+        max-width: 96% !important;
+    }
+    .container-netflix > h1{
+        margin-top: 1% !important;
+        font-size: 200% !important;
+        margin-left: 0% !important;
+        max-width: 100% !important;
+    }
+    .container-netflix > ul{
+        min-width: 50% !important;
+    }
+    .container-netflix > img{
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        margin-bottom: 1% !important;
+        padding: 0 2% 0 2% !important;
+        margin-left: 45% !important;
+    }
+    .last_button{
+        max-width: 96% !important;
+        margin-left: 1% !important;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -554,3 +706,12 @@ footer{
       text-shadow: none;
     }
   }
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--bs-warning), 0 0 40px var(--bs-warning), 0 0 50px var(--bs-warning), 0 0 60px var(--bs-warning), 0 0 70px var(--bs-warning);
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px var(--bs-warning), 0 0 40px var(--bs-warning), 0 0 50px var(--bs-warning), 0 0 60px var(--bs-warning), 0 0 70px var(--bs-warning), 0 0 80px var(--bs-warning);
+    }
+}
