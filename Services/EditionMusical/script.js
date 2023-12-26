@@ -23,6 +23,18 @@ else{
         element.style.borderBottom="4px solid " + color;
         element.querySelector('a').querySelector('i').style.color="lightgrey";
     }
+    function showUnchained(element){
+        let color = "#b50181";
+        element.style.border="none";
+        element.style.borderTop="4px solid " + color;
+        element.style.paddingTop="13px";
+    }
+    function unShowUnchained(element){
+        let color = "#b50181";
+        console.log(color)
+        element.style.border="none";
+        element.style.borderBottom="4px solid " + color;
+    }
 }
 
 function scrollToTop() {

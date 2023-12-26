@@ -453,6 +453,19 @@ footer{
     color: #0e76a8;
     border-bottom: 4px solid #0e76a8;
 }
+.unchained{
+    width: 2em !important;
+    height: 2em !important;
+    display: inline-grid;
+    padding: 16px !important;
+    margin-bottom: -3% !important;
+    background-size: cover;
+    background-image: url(../../IMG/unchainedMusic.png);
+    border-bottom: 4px solid #b50181;
+}
+.unchained:hover{
+    background-image: url(../../IMG/unchianedMusic_hover.png);
+}
 .footerList > li > a{
     color: white !important;
     text-decoration: none !important;
@@ -655,6 +668,9 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
     }
 }
 

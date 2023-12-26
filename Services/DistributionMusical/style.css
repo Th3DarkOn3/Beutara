@@ -157,7 +157,7 @@ nav{
 .triangle {
     width: auto;
     height: 800px;
-    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -169,7 +169,7 @@ nav{
 .poligone{
     width: auto;
     height: 650px;
-    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0;
@@ -182,7 +182,7 @@ nav{
 .poligone-end{
     width: auto;
     height: 100px;
-    background-color: #4472c4;
+    background-color: #cfaa58;
     z-index: -999999 !important;
     
 }
@@ -267,6 +267,19 @@ footer{
     content: "\f09a";
     color: #0e76a8;
     border-bottom: 4px solid #0e76a8;
+}
+.unchained{
+    width: 2em !important;
+    height: 2em !important;
+    display: inline-grid;
+    padding: 16px !important;
+    margin-bottom: -3% !important;
+    background-size: cover;
+    background-image: url(../../IMG/unchainedMusic.png);
+    border-bottom: 4px solid #b50181;
+}
+.unchained:hover{
+    background-image: url(../../IMG/unchianedMusic_hover.png);
 }
 .footerList > li > a{
     color: white !important;
@@ -417,6 +430,9 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
     }
 }
 

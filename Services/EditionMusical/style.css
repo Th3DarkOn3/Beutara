@@ -96,7 +96,7 @@ nav{
 .box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .img-box{
@@ -213,27 +213,33 @@ nav{
     background-color: white !important;
 }
 .container-cat{
-    max-width: 96% !important;
-    margin-left: 2% !important;
+    max-width: 90% !important;
+    margin-left: 5% !important;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-}
-.title-cat{
-    padding: 1%;
 }
 .title-cat > h3{
     font-size: 300%;
     color: var(--bs-warning);
 }
 .content-cat{
-    padding: 1% !important;
+    padding: 4% 5% 4% 4% !important;
     background-color: rgba(0, 183, 255, 0.5);
     border-radius: 10px;
 }
+#content-cat{
+    margin-right: 7% !important;
+    padding: 4% 5% 4% 3% !important;
+}
 .content-cat > p{
-    font-size: 130%;
+    font-size: 150%;
     font-weight: 500;
+}
+.content-cat > ul > li{
+    font-size: 150%;
+    font-weight: 500;
+
 }
 .artists-img{
     display: flex;
@@ -422,6 +428,19 @@ footer{
     color: #0e76a8;
     border-bottom: 4px solid #0e76a8;
 }
+.unchained{
+    width: 2em !important;
+    height: 2em !important;
+    display: inline-grid;
+    padding: 16px !important;
+    margin-bottom: -3% !important;
+    background-size: cover;
+    background-image: url(../../IMG/unchainedMusic.png);
+    border-bottom: 4px solid #b50181;
+}
+.unchained:hover{
+    background-image: url(../../IMG/unchianedMusic_hover.png);
+}
 .footerList > li > a{
     color: white !important;
     text-decoration: none !important;
@@ -582,6 +601,9 @@ footer{
         max-width: 96% !important;
         margin-left: 1% !important;
     }
+    #content-cat{
+        margin-right: 0% !important;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -652,6 +674,9 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
     }
 }
 
