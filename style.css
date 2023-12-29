@@ -276,6 +276,9 @@ hr{
     width: 1920px !important;
     height: 1080px !important;
 }
+.secondary_title{
+    color: var(--bs-warning) !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
