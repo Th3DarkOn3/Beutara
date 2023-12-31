@@ -455,9 +455,9 @@ footer{
     width: 2em !important;
     height: 2em !important;
     display: inline-grid;
-    padding: 16px !important;
-    margin-bottom: -3% !important;
     background-size: cover;
+    padding: 16px !important;
+    margin-top: -30% !important;
     background-image: url(../../IMG/unchainedMusic.png);
     border-bottom: 4px solid #b50181;
 }
@@ -478,7 +478,7 @@ footer{
 .copyR{
     color: lightgray;
 }
-.footerList > li > h4{
+.footerList > li > h4, .social > li > h4{
     color: var(--bs-warning) !important;
 }
 /*WideScreen*/
