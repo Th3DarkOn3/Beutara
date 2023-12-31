@@ -78,6 +78,7 @@ nav{
 }
 .beut{
     width: 20%;
+    margin-right: 20% !important;
 }
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.8) !important;
