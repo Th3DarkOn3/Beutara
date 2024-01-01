@@ -611,6 +611,10 @@ footer{
     .pArtists-container > img{
         margin-top: 10% !important;
     }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -640,7 +644,7 @@ footer{
         align-items: center;
     }
     .beut{
-        width: 50%;
+        width: 25%;
     }
     .msg-container{
         background-color: rgba(0, 0, 0, 0.8);
@@ -683,6 +687,7 @@ footer{
     }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 
