@@ -408,6 +408,10 @@ nav{
 .last_button{
     width: 99% !important;
 }
+.youtube_video{
+    width: 1920px !important;
+    height: 1080px !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -608,6 +612,10 @@ footer{
         background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none;
     }
+    .youtube_video{
+        width: 390px !important;
+        height: 365px !important;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -683,6 +691,10 @@ footer{
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none;
+    }
+    .youtube_video{
+        width: 1024px !important;
+        height: 720px !important;
     }
 }
 

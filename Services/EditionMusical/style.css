@@ -384,6 +384,10 @@ nav{
 .secondary_title{
     color: var(--bs-warning) !important;
 }
+.youtube_video{
+    width: 1920px !important;
+    height: 1080px !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -609,6 +613,10 @@ footer{
     #content-cat{
         margin-right: 0% !important;
     }
+    .youtube_video{
+        width: 390px !important;
+        height: 365px !important;
+    }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none;
@@ -692,6 +700,10 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .youtube_video{
+        width: 1024px !important;
+        height: 720px !important;
     }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);

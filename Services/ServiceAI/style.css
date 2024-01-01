@@ -407,6 +407,10 @@ nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
 }
+.youtube_video{
+    width: 1920px !important;
+    height: 1080px !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
@@ -521,6 +525,10 @@ footer{
         background-repeat: no-repeat;
         min-height: 60vh;
     }
+    .youtube_video{
+        width: 390px !important;
+        height: 365px !important;
+    }
     .box{
         flex-direction: column;
     }
@@ -617,6 +625,10 @@ footer{
     }
     .fontPub{
         font-size: 50px !important;
+    }
+    .youtube_video{
+        width: 1024px !important;
+        height: 720px !important;
     }
     .fontPubMin{        
         margin-top: -25px !important;
