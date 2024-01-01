@@ -143,58 +143,75 @@
                 </div>
             </div>
         </section>
-        <hr class="mt-5 mb-5">
-        <div class="promo-buttons mt-5 mb-5">
-            <button class="btn btn-secondary shadow-lg rounded btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#spotifyProm" aria-expanded="false" aria-controls="spotifyProm"><i class="fa-brands fa-spotify"></i> PROMO</button>
-            <button class="btn btn-secondary shadow-lg rounded btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#youtubeProm" aria-expanded="false" aria-controls="youtubeProm"><i class="fa-brands fa-youtube"></i> PROMO</button>
-            <button class="btn btn-secondary shadow-lg rounded btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#marketingMusical" aria-expanded="false" aria-controls="marketingMusical">RP MEDIA & MARKETING MUSICAL</button>
-            <button class="btn btn-secondary shadow-lg rounded btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#radioProm" aria-expanded="false" aria-controls="radioProm">PROMO RADIO</button>
-            <button class="btn btn-secondary shadow-lg rounded btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#manager" aria-expanded="false" aria-controls="manager">MANAGER VOTRE CARRIERE</button>
-        </div>
-        <div class="row mt-3 mb-5">
-            <div class="col">
-              <div id="spotifyProm" class="collapse multi-collapse">
-                <div class="card card-body">
-                  <h2>Promotion Spotify</h2>
-                  <p>Confiez à Beutara votre promotion chez Spotify c'est avoir l'assurance de voir votre musique rentrer dans des Play listing. Notre réseau comprend de spécialistes avec de fortes entrées et une expérience chez Spotify.</p>
-                  <p><i>Beutara</i> est un gage qui vous assure l'obtention du nombre de pièces et de fans de façon massive. </p>
-                </div>
+        <div class="accordion mt-5 mb-5" id="accordionPromo">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="spotifyPromoHeader">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#spotifyPromo" aria-expanded="true" aria-controls="spotifyPromo">
+                Spotify Promo
+              </button>
+            </h2>
+            <div id="spotifyPromo" class="accordion-collapse collapse show" aria-labelledby="spotifyPromo">
+              <div class="accordion-body">
+                <h2>Promotion Spotify</h2>
+                <p>Confiez à Beutara votre promotion chez Spotify c'est avoir l'assurance de voir votre musique rentrer dans des Play listing. Notre réseau comprend de spécialistes avec de fortes entrées et une expérience chez Spotify.</p>
+                <p><i>Beutara</i> est un gage qui vous assure l'obtention du nombre de pièces et de fans de façon massive. </p>
               </div>
             </div>
-            <div class="col">
-              <div id="youtubeProm" class="collapse multi-collapse">
-                <div class="card card-body">
-                    <h2>Promotion YouTube</h2>
-                    <p>youtubeProm</p>
-                    <p>Grace à notre technique, nous incitons la personne à s'abonner pendant le visionnage de votre clip.</p>
-                    <p>La Promotion Musique YouTube étant primordiale pour le développement de votre carrière, nous facilitons l'augmentation de votre fan base, du nombre de vues et de streaming</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div id="marketingMusical" class="collapse multi-collapse">
-                <div class="card card-body">
-                    <h2>Relations publiques & Marketing musical</h2>
-                    <p><i>Beutara</i> construit pour vous les outils pour la sortie de votre E.P, de votre album ou de la promotion de votre tournée musicale.</p>
-                    <p>Nous concevons un plan promotionnel auprès des médias, initions un plan de relations publiques auprès des journalistes spécialisés, des médias, des influenceurs ainsi que d'autres formes marketing pour mieux installer votre visibilité. Votre site Internet, votre Pressbook, etc.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div id="radioProm" class="collapse multi-collapse">
-                <div class="card card-body promoIMG">
-                  <img src="IMG\artist\6.jpg" alt="PHOTO_ARTISTE">
-                </div>
-              </div>
-            </div>
-            <div class="col">
-                <div id="manager" class="collapse multi-collapse">
-                  <div class="card card-body promoIMG">
-                    <img src="IMG\artist\10.jpg" alt="PHOTO_ARTISTE">
-                  </div>
-                </div>
-              </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="youtubePromoHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#youtubePromo" aria-expanded="false" aria-controls="youtubePromo">
+                YouTube Promo
+              </button>
+            </h2>
+            <div id="youtubePromo" class="accordion-collapse collapse" aria-labelledby="youtubePromoHeader">
+              <div class="accordion-body">
+                <h2>Promotion YouTube</h2>
+                <p>youtubeProm</p>
+                <p>Grace à notre technique, nous incitons la personne à s'abonner pendant le visionnage de votre clip.</p>
+                <p>La Promotion Musique YouTube étant primordiale pour le développement de votre carrière, nous facilitons l'augmentation de votre fan base, du nombre de vues et de streaming</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="marketingMusicalHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marketingMusical" aria-expanded="false" aria-controls="marketingMusical">
+                RP Media & Marketing Musical
+              </button>
+            </h2>
+            <div id="marketingMusical" class="accordion-collapse collapse" aria-labelledby="marketingMusicalHeader">
+              <div class="accordion-body">
+                <h2>Relations publiques & Marketing musical</h2>
+                <p><i>Beutara</i> construit pour vous les outils pour la sortie de votre E.P, de votre album ou de la promotion de votre tournée musicale.</p>
+                <p>Nous concevons un plan promotionnel auprès des médias, initions un plan de relations publiques auprès des journalistes spécialisés, des médias, des influenceurs ainsi que d'autres formes marketing pour mieux installer votre visibilité. Votre site Internet, votre Pressbook, etc.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="radioPromoHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#radioPromo" aria-expanded="false" aria-controls="radioPromo">
+                Radio Promo
+              </button>
+            </h2>
+            <div id="radioPromo" class="accordion-collapse collapse" aria-labelledby="radioPromoHeader">
+              <div class="accordion-body promoIMG">
+                <img src="IMG\artist\10.jpg" alt="PHOTO_ARTISTE">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="managerHeader">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#manager" aria-expanded="false" aria-controls="manager">
+                Manager votre Carriere
+              </button>
+            </h2>
+            <div id="manager" class="accordion-collapse collapse" aria-labelledby="managerHeader">
+              <div class="accordion-body promoIMG">
+                <img src="IMG\artist\6.jpg" alt="PHOTO_ARTISTE">
+              </div>
+            </div>
+          </div>
+        </div>
           <div class="d-flex justify-content-center">
             <iframe class="youtube_video" src="https://www.youtube.com/embed/utXFnjbxUe8?si=Vi6uKqvnuDCCwrT_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
@@ -210,7 +227,7 @@
               <img src="IMG\LogoDistrubutors\shazam.svg" alt="Shazam" class="logoDist">
               <img src="IMG\LogoDistrubutors\meta.svg" alt="Meta" class="logoDist">
           </div>
-          <div class="last_button ">
+          <div class="last_button mt-5 mb-5">
             <a href="#" class="btn btn-secondary" role="button" data-bs-toggle="button">REJOINDRE BEUTARA</a>
           </div>
           <button type="button" class="graffica-scroll-button" onclick="scrollToTop()" title="REJOINDRE BEUTARA">

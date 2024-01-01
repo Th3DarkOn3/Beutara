@@ -360,6 +360,9 @@ nav{
     background-color: #4472c4;
     
 }
+.synchro > #foto > div > div > h2 {
+    color: var(--bs-warning) !important;
+}
 .last_button{
     display: flex;
     justify-content: center;
@@ -386,6 +389,9 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.last_button{
+    width: 99% !important;
 }
 .social > li{
     list-style: none;
@@ -603,6 +609,10 @@ footer{
     #content-cat{
         margin-right: 0% !important;
     }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -614,6 +624,9 @@ footer{
         min-height: 300px;
         background-size: cover;
         margin-bottom: 10%;
+    }
+    .title_info{
+        padding-right: 120px !important;
     }
     .fontPub{
         font-size: 50px !important;
@@ -628,7 +641,13 @@ footer{
         align-items: center;
     }
     .beut{
-        width: 50%;
+        width: 25%;
+    }
+    .artists-img{
+        flex-direction: column;
+    }
+    .artists-img > img{
+        margin-top: 5%;
     }
     header{
         background-image: url(IMG/BG.jpg);
@@ -676,6 +695,7 @@ footer{
     }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 

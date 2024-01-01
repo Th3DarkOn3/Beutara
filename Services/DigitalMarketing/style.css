@@ -358,7 +358,7 @@ nav{
 .triangle {
     width: auto;
     height: 800px;
-    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -370,7 +370,7 @@ nav{
 .poligone{
     width: auto;
     height: 650px;
-    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #4472c4 50%, #4472c4 100%);
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
     background-size: 80% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0;
@@ -378,12 +378,12 @@ nav{
 .poligone-text{
     text-align: left;
     margin-right: 50%;
-    max-width: 50%;
+    max-width: 49%;
 }
 .poligone-end{
     width: auto;
     height: 50px;
-    background-color: #4472c4;
+    background-color: #cfaa58;
     
 }
 .radiants-container{
@@ -404,6 +404,9 @@ nav{
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
+}
+.last_button{
+    width: 99% !important;
 }
 /*==================================Footer==========================================*/
 footer{
@@ -601,6 +604,10 @@ footer{
     .pArtists-container > img{
         margin-top: 10% !important;
     }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -626,7 +633,7 @@ footer{
         align-items: center;
     }
     .beut{
-        width: 50%;
+        width: 25%;
     }
     .msg-container{
         background-color: rgba(0, 0, 0, 0.8);
@@ -667,8 +674,15 @@ footer{
     .cards-services{
         flex-direction: column;
     }
+    .pArtists-container{
+        flex-direction: column;
+    }
+    .pArtists-container > img{
+        margin-top: 5%;
+    }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 

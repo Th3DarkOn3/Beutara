@@ -127,6 +127,11 @@ nav{
     text-align: center;
     font-size: 24px;
 }
+.pArtists-container{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
 .pArtists-container > img{
     width: 300px !important;
     height: 300px !important;
@@ -363,6 +368,10 @@ footer{
         width: 200px;
         height: auto;
     }
+    .unchained{
+        background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -374,6 +383,12 @@ footer{
         min-height: 300px;
         background-size: cover;
         margin-bottom: 10%;
+    }
+    .pArtists-container{
+        flex-direction: column !important;
+    }
+    .pArtists-container > img{
+        margin-top: 5%;
     }
     .fontPub{
         font-size: 50px !important;
@@ -388,7 +403,7 @@ footer{
         align-items: center;
     }
     .beut{
-        width: 50%;
+        width: 25%;
     }
     header{
         background-image: url(IMG/BG.jpg);
@@ -436,6 +451,7 @@ footer{
     }
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 

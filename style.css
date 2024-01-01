@@ -160,14 +160,14 @@ nav{
 .title_info{
     border: solid black 1.5px;
     padding: 1%;
-    max-width: 10%;
+    max-width: 13%;
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
     font-size: 20px;
 }
 #title_info_2{
-    margin-left: 82% !important;
+    margin-left: 80% !important;
 }
 .fontPub{
     width: 700px;
@@ -210,7 +210,10 @@ nav{
 hr{
     color: white !important;
 }
-
+#accordionPromo{
+    margin-left: 1% !important;
+    width: 98% !important;
+}
 .btn-secondary:hover{
     background-color: white !important;
     color: black !important;
@@ -260,9 +263,7 @@ hr{
     object-fit: cover;
 }
 .last_button{
-    display: flex;
-    justify-content: center;
-    margin: 2% 0 2% 0;
+    width: 99% !important;
 }
 .last_button > a{
     color: var(--bs-warning) !important;
@@ -272,6 +273,10 @@ hr{
     font-size: 50px !important;
     min-width: 100% !important;
     min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
 }
 .youtube_video{
     width: 1920px !important;
@@ -418,6 +423,10 @@ footer{
         width: 200px;
         height: auto;
     }
+    .unchained{
+        background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none !important;
+    }
 }
 @media only screen and (max-width:1120px){
     .parallax{
@@ -443,7 +452,8 @@ footer{
         align-items: center;
     }
     .beut{
-        width: 50%;
+        width: 25%;
+        margin-right: 10% !important;
     }
     .msg-container{
         background-color: rgba(0, 0, 0, 0.8);
@@ -486,8 +496,13 @@ footer{
     .btn_perso{
         margin-bottom: 5%;
     }
+    .youtube_video{
+        width: 1024px !important;
+        height: 720px !important;
+    }
     .unchained{
         background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 
