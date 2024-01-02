@@ -363,24 +363,6 @@ nav{
 .synchro > #foto > div > div > h2 {
     color: var(--bs-warning) !important;
 }
-.last_button{
-    display: flex;
-    justify-content: center;
-    margin: 2% 0 2% 0;
-}
-.last_button > a{
-    color: var(--bs-warning) !important;
-    text-transform: uppercase !important;
-    font-family: 'Caveat', cursive !important;
-    padding-top: 140px !important;
-    font-size: 50px !important;
-    min-width: 100% !important;
-    min-height: 400px !important;
-}
-.last_button > a:hover{
-    color: black !important;
-    background-color: white !important;
-}
 .secondary_title{
     color: var(--bs-warning) !important;
 }
