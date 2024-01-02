@@ -252,7 +252,7 @@ nav{
 }
 .title_info{
     border: solid black 1.5px;
-    padding: 1%;
+    padding: 3%;
     max-width: 10%;
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
@@ -442,7 +442,7 @@ footer{
     height: 2em !important;
     display: inline-grid;
     background-size: cover;
-    padding: 16px !important;
+    padding: 20px !important;
     margin-top: -30% !important;
     background-image: url(../../IMG/unchainedMusic.png);
     border-bottom: 4px solid #b50181;
