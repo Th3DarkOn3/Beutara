@@ -59,7 +59,7 @@ html {
     margin-top: 25% !important;
     margin-left: 5% !important;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 .msg-container > *{
     max-width: 500px !important;
@@ -365,6 +365,7 @@ footer{
         max-width: 300px !important;
         margin-top: 15% !important;
         margin-left: 13% !important;
+        padding-bottom: 20px !important;
     }
     .msg-container > *{
         max-width: 250px !important;
