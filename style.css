@@ -263,7 +263,8 @@ hr{
     object-fit: cover;
 }
 .last_button{
-    width: 99% !important;
+    width: 98% !important;
+    margin-left: 1% !important;
 }
 .last_button > a{
     color: var(--bs-warning) !important;
@@ -344,6 +345,11 @@ footer{
 .unchained:hover{
     background-image: url(./IMG/unchianedMusic_hover.png);
 }
+.unchined-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
 .footerList > li > a{
     color: white !important;
     text-decoration: none !important;
@@ -358,7 +364,7 @@ footer{
 .copyR{
     color: lightgray;
 }
-.footerList > li > h4, .social > li > h4{
+.footerList > li > h4, .social > li > h4, .social > li > h5{
     color: var(--bs-warning) !important;
 }
 

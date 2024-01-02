@@ -171,13 +171,55 @@ nav{
     object-fit: cover;
 }
 .title_info{
+    display: flex;
+    justify-content: center;
     border: solid black 1.5px;
-    padding: 1%;
-    max-width: 15%;
+    max-width: 98%;
+    margin-left: 1%;
+    padding: 2%;
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 400%;
+}
+#title_info{
+    display: flex;
+    justify-content: center;
+    border: solid black 1.5px;
+    padding: 1px;
+    max-width: 50% !important;
+    text-transform: uppercase;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 300%;
+}
+.titles, .tex_pub_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 98%;
+    margin-left: 1%;
+}
+.title_info_2{
+    display: flex;
+    justify-content: center;
+    border: solid black 1.5px;
+    min-width: 49%;
+    padding: 2%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+.tex_pub_container > p{
+    max-width: 49%;
+}
+.tex_pub_container{
+    color: var(--bs-warning);
+}
+#label-artistes{
+    margin-left: 68% !important;
 }
 .reviews_continer{
     display: flex;
@@ -448,22 +490,19 @@ nav{
 }
 .imgs_container{
     display: flex;
-    justify-content: space-evenly;
-    max-width: 96% !important;
-    margin-left: 2% !important;
+    justify-content: space-between;
+    max-width: 98%;
+    margin-left: 1%;
 }
 .img_container{
-    max-width: 46% !important;
-    margin-left: 2% !important;
+    max-width: 49% !important;
 }
 .connect_container{
     display: flex;
-    justify-content: space-between;
-    max-width: 98% !important;
-    margin-left: 1% !important;
+    justify-content: space-evenly;
 }
 .connect_container > img{
-    width: 350px !important;
+    width: 400px !important;
     height: auto !important;
 }
 .cards-container{
@@ -794,6 +833,9 @@ footer{
     .card{
         margin-top: 5% !important;
         margin-right: 5% !important;
+    }
+    #label-artistes{
+        margin-left: 0% !important;
     }
 }
 

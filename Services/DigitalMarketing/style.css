@@ -153,13 +153,15 @@ nav{
     object-fit: cover;
 }
 .title_info{
+    display: flex;
+    justify-content: center;
     border: solid black 1.5px;
-    padding: 1%;
-    max-width: 10%;
+    max-width: 99%;
+    padding: 2%;
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 250%;
 }
 .reviews_continer{
     display: flex;
@@ -406,7 +408,8 @@ nav{
     font-size: larger;
 }
 .last_button{
-    width: 99% !important;
+    width: 98% !important;
+    margin-left: 1%;
 }
 .youtube_video{
     width: 1920px !important;
