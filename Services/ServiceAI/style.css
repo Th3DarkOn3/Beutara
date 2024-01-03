@@ -180,7 +180,7 @@ nav{
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 400%;
+    font-size: 300%;
 }
 #title_info{
     display: flex;
@@ -209,7 +209,7 @@ nav{
     background-color: rgb(103, 103, 103);
     color: var(--bs-warning);
     font-weight: 600;
-    font-size: 400%;
+    font-size: 250%;
     text-transform: uppercase;
 }
 .tex_pub_container > p{
@@ -501,9 +501,15 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
+.connect_container > p{
+    color: var(--bs-warning) !important;
+    font-weight: 700;
+    font-size: 190% !important;
+    text-transform: uppercase;
+}
 .connect_container > img{
     width: 400px !important;
-    height: auto !important;
+    height: 400px !important;
 }
 .cards-container{
     display: flex;
@@ -613,17 +619,36 @@ footer{
 .copyR{
     color: lightgray;
 }
-.footerList > li > h4, .social > li > h4{
+.footerList > li > h4, .social > li > h4, .social > li > h5{
     color: var(--bs-warning) !important;
 }
+.official_partner{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    margin-left: -10% !important;
+}
+.official_partner > p{
+    font-size: 110% !important;
+}
+.official_partner > a > span{
+    margin-top: 1% !important;
+    margin-left: -50% !important;
+}
 /*WideScreen*/
-@media only screen and (min-width:1600px){
+@media only screen and (min-width:1880px){
     .single-artist{
         margin-left: 18% !important;
     }
     .promoIMG > img{
         height: 320px !important;
         width: 240px !important;
+    }
+    .connect_container > p{
+        color: var(--bs-warning) !important;
+        font-weight: 700;
+        font-size: 300% !important;
+        text-transform: uppercase;
     }
 }
 
