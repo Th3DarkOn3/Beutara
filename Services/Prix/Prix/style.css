@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Dancing+Script:wght@500&display=swap');
+/*font-family: bungee, sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/*font-family: 'Caveat', cursive;*/
+/*======================================Header===================================*/
+:root{
+    --bs-warning: #cfaa58 !important;
+    --bs-white: #ffffff;
+    --bs-gray-500: #6c757d;
+}
+.footerLinks{
+    text-decoration: none;
+    color: var(--bs-gray-500);
+}
+.footerLinks:hover{
+    color: var(--bs-warning);
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+#header-home{
+    background-image: url(./IMG/BG.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.nav-link{
+    color: var(--bs-white) !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+.active:hover{
+    color: black !important;
+    background-color: white;
+}
+.dropdown-item:hover{
+    color: black !important;
+}
+.title, .navbar-toggler-icon{
+    color: var(--bs-warning);
+    text-transform: uppercase;
+
+}
+.msg-container{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 10px;
+    max-width: 550px !important;
+    margin-top: 25% !important;
+    margin-left: 5% !important;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.msg-container > *{
+    max-width: 500px !important;
+}
+.msg-title{
+    text-transform: uppercase;
+    color: var(--bs-warning);
+}
+.msg{
+    font-size: 18px;
+    font-weight: 700;
+}
+nav{
+    text-transform: uppercase !important;
+}
+.beut{
+    width: 20%;
+    margin-right: 20% !important;
+}
+.btn-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border: #ffffff solid 1px !important;
+}
+/*==================================Main===========================================*/
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-shadow:
+        -1.5px -1.5px 0 black,
+        1.5px -1.5px 0 black,
+        -1.5px 1.5px 0 black,
+        1.5px 1.5px 0 black;
+}
+.title_info{
+    display: flex;
+    justify-content: center;
+    border: solid black 1.5px;
+    max-width: 99%;
+    padding: 2%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 400%;
+}
+.last_button{
+    width: 98% !important;
+    margin-left: 1% !important;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
+.graffica-scroll-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.678);
+    border: 0.5px solid black;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 30px;
+}
+
+.graffica-scroll-button:hover {
+    transform: scale(1.1);
+}
+
+.graffica-scroll-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*==================================Footer==========================================*/
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.social > li{
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline;
+}
+.social > li > a > i{
+    font-size: 2em;
+    color: lightgray;
+}
+.social li:nth-child(1){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #3b5998;
+    border-bottom: 4px solid #3b5998;
+}
+.social li:nth-child(2){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #dd2a7b;
+    border-bottom: 4px solid #dd2a7b;
+}
+.social li:nth-child(3){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #c4302b;
+    border-bottom: 4px solid #c4302b;
+}
+.social li:nth-child(4){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #fe6d35;
+    border-bottom: 4px solid #fe6d35;
+}
+.social li:nth-child(5){
+    max-width: 2em !important;
+    content: "\f09a";
+    color: #0e76a8;
+    border-bottom: 4px solid #0e76a8;
+}
+.unchained{
+    width: 2em !important;
+    height: 2em !important;
+    display: inline-grid;
+    background-size: cover;
+    padding: 20px !important;
+    margin-top: -30% !important;
+    background-image: url(../../../IMG/unchainedMusic.png);
+    border-bottom: 4px solid #b50181;
+}
+.unchained:hover{
+    background-image: url(../../../IMG/unchianedMusic_hover.png);
+}
+.unchined-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.footerList > li > a{
+    color: white !important;
+    text-decoration: none !important;
+}
+.footerList > li > a:hover{
+    color: var(--bs-warning) !important;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+.copyR{
+    color: lightgray;
+}
+.footerList > li > h4, .social > li > h4, .social > li > h5{
+    color: var(--bs-warning) !important;
+}
+.official_partner{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    margin-left: -10% !important;
+}
+.official_partner > p{
+    font-size: 110% !important;
+}
+.official_partner > a > span{
+    margin-top: 1% !important;
+    margin-left: -50% !important;
+}
+
+/*WideScreen*/
+@media only screen and (min-width:1600px){
+    .single-artist{
+        margin-left: 18% !important;
+    }
+    .promoIMG > img{
+        height: 320px !important;
+        width: 240px !important;
+    }
+    #header-home{
+        background-size: cover;
+        background-position: center;
+        min-height: 160vh;
+    }
+}
+/*galaxyFold*/
+@media only screen and (max-width:670px){
+    .single-artist{
+        margin-left: 1.5% !important;
+    }
+    .lLine{
+        font-size: 10px;
+    }
+    .pArtists-container{
+        flex-direction: column;
+    }
+    .pArtists-container > img{
+        margin-top: 10% !important;
+    }
+    .promo-buttons{
+        flex-direction: column;
+    }
+    .promo-buttons > button{
+        margin-top: 5%;
+    }
+    .title_info{
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
+    }
+    #title_info_2{
+        margin-left: 0 !important;
+    }
+    .youtube_video{
+        width: 390px !important;
+        height: 365px !important;
+    }
+    .dist_music_buttons_container{
+        flex-direction: column;
+    }
+    .dist_music_buttons_container > a{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .fontPub{
+        width: 385px;
+    }
+    .logoDist{
+        width: 200px;
+        height: auto;
+    }
+    .unchained{
+        background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none !important;
+    }
+}
+@media only screen and (max-width:1120px){
+    .parallax{
+        width:99%; 
+        padding:10px;
+        box-sizing: border-box;
+        background-attachment: scroll;
+        background-position: center;
+        min-height: 300px;
+        background-size: cover;
+        margin-bottom: 10%;
+    }
+    .fontPub{
+        font-size: 50px !important;
+    }
+    .fontPubMin{        
+        margin-top: -25px !important;
+        font-size: 20px !important;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .beut{
+        width: 25%;
+        margin-right: 10% !important;
+    }
+    .msg-container{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        border-radius: 10px;
+        max-width: 300px !important;
+        margin-top: 80% !important;
+    }
+    .msg-container > *{
+        max-width: 250px !important;
+    }
+    .imgPub{
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        padding: 3%;
+    }
+    .logoDist{
+        margin-top: 30px !important;
+        max-height:230px;
+    }
+    .social{
+        margin-right: -10px !important;
+    }
+    .social > li{
+        display: block;
+        margin: 8px 0px 8px 0px;
+    }
+    .contacts > ul > li{
+        display: block;
+        margin: 8px 0px 8px 0px;
+    }
+    .copyR{
+        font-size: 10px;
+        margin-left: 25% !important;
+    }
+    .cards-services{
+        flex-direction: column;
+    }
+    .btn_perso{
+        margin-bottom: 5%;
+    }
+    .youtube_video{
+        width: 1024px !important;
+        height: 720px !important;
+    }
+    .unchained{
+        background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none;
+    }
+}
+
+/* ===============================Animations============================================ */
+@keyframes shadows {
+    0% {
+      text-shadow: none;
+    }
+    10% {
+      transform: translate(-3px, -3px);
+      text-shadow: 3px 3px 0 lightgrey;
+    }
+    20% {
+      transform: translate(-6px, -6px);
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150);
+    }
+    30% {
+      transform: translate(-9px, -9px);
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
+    }
+    40% {
+      transform: translate(-12px, -12px);
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    50% {
+      transform: translate(-12px, -12px);
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    60% {
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91),
+        12px 12px 0 black;
+    }
+    70% {
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150), 9px 9px rgb(91, 91, 91);
+    }
+    80% {
+      text-shadow: 3px 3px 0 lightgrey,
+        6px 6px 0 rgb(150, 150, 150);
+    }
+    90% {
+      text-shadow: 3px 3px 0 lightgrey;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
