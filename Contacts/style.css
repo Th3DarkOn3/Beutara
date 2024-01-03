@@ -93,10 +93,28 @@ nav{
         -1.5px 1.5px 0 black,
         1.5px 1.5px 0 black;
 }
+.title_info{
+    display: flex;
+    justify-content: center;
+    border: solid black 1.5px;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 300%;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: white !important;
+    color: black !important;
+    border: black solid 1px !important;
+}
 .contactForm{
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 5%;
     max-width: 90%;
     margin-left: 5%;
     border-radius: 10px;
