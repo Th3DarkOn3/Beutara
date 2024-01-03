@@ -162,7 +162,7 @@ nav{
 .header-container > div{
     width: 50% !important;
 }
-.img-thumbnail{
+.header-container > div > .img-thumbnail{
     width: 200px !important;
 }
 .titles-container{
@@ -172,7 +172,9 @@ nav{
 }
 .droit-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    max-width: 90% !important;
+    margin-left: 5% !important;
 }
 .graffica-scroll-button {
     position: fixed;
