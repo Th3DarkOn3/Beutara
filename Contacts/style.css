@@ -4,6 +4,11 @@
 /*font-family: 'Oswald', sans-serif;*/
 
 /*======================================Header===================================*/
+:root{
+    --bs-warning: #cfaa58 !important;
+    --bs-white: #ffffff;
+    --bs-gray-500: #6c757d;
+}
 .footerLinks{
     text-decoration: none;
     color: var(--bs-gray-500);
@@ -89,8 +94,11 @@ nav{
         1.5px 1.5px 0 black;
 }
 .contactForm{
-    margin: 3% 5% 3% 5% !important;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    max-width: 90%;
+    margin-left: 5%;
     border-radius: 10px;
     background-color: lightgray;
 }
@@ -152,11 +160,24 @@ footer{
     color: #0e76a8;
     border-bottom: 4px solid #0e76a8;
 }
-li > a{
+.unchained{
+    width: 2em !important;
+    height: 2em !important;
+    display: inline-grid;
+    background-size: cover;
+    padding: 20px !important;
+    margin-top: -30% !important;
+    background-image: url(../../IMG/unchainedMusic.png);
+    border-bottom: 4px solid #b50181;
+}
+.unchained:hover{
+    background-image: url(../../IMG/unchianedMusic_hover.png);
+}
+.footerList > li > a{
     color: white !important;
     text-decoration: none !important;
 }
-li > a:hover{
+.footerList > li > a:hover{
     color: var(--bs-warning) !important;
 }
 .break {
@@ -165,6 +186,22 @@ li > a:hover{
 }
 .copyR{
     color: lightgray;
+}
+.footerList > li > h4, .social > li > h4, .social > li > h5{
+    color: var(--bs-warning) !important;
+}
+.official_partner{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    margin-left: -10% !important;
+}
+.official_partner > p{
+    font-size: 110% !important;
+}
+.official_partner > a > span{
+    margin-top: 1% !important;
+    margin-left: -50% !important;
 }
 
 /*WideScreen*/
