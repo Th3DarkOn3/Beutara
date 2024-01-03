@@ -176,6 +176,76 @@ nav{
     max-width: 90% !important;
     margin-left: 5% !important;
 }
+.mid-paragraph{
+    max-width: 80% !important;
+    margin-left: 10% !important;
+    font-size: 150%;
+    font-weight: 600;
+}
+.artiste-indipendant-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center !important;
+    max-width: 98% !important;
+    margin-left: 1% !important;
+}
+.artiste-indipendant-container > img{
+    width: 350px !important;
+    height: 550px !important;
+}
+.artiste-text-container{
+    width: 60% !important;
+}
+.artiste-text-container > h4{
+    margin-bottom: 8% !important;
+}
+.artiste-text-container > p{
+    margin-bottom: 8% !important;
+}
+.lance{
+    margin-left: 10%;
+}
+.lance:hover{
+    color: black !important;
+    background-color: white !important;
+    border: solid black 1px !important;
+}
+.triangle {
+    width: auto;
+    height: 800px;
+    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.triangle-text{
+    text-align: right;
+    margin-left: 50%;
+    max-width: 50%;
+}
+.poligone{
+    width: auto;
+    height: 650px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
+    background-size: 80% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+}
+.poligone-text{
+    text-align: left;
+    margin-right: 50%;
+    max-width: 50%;
+}
+.poligone-end{
+    width: auto;
+    height: 100px;
+    background-color: #cfaa58;
+    z-index: -999999 !important;
+    
+}
+.radiants-container{
+    max-width: 98% !important;
+    margin-left: 1% !important;
+}
 .graffica-scroll-button {
     position: fixed;
     bottom: 20px;
@@ -189,7 +259,25 @@ nav{
     transition: transform 0.3s ease-in-out;
     font-size: 30px;
 }
-
+.last_button{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+    min-width: 99% !important;
+}
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
+}
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
+}
 .graffica-scroll-button:hover {
     transform: scale(1.1);
 }
