@@ -2,7 +2,8 @@
 /*font-family: bungee, sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
 /*font-family: 'Oswald', sans-serif;*/
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/*font-family: 'Caveat', cursive;*/
 /*======================================Header===================================*/
 :root{
     --bs-warning: #cfaa58 !important;
@@ -28,7 +29,7 @@ html {
     background-color: transparent !important;
 }
 #header-home{
-    background-image: url(../../IMG/distMusic.jpg);
+    background-image: url(./IMG/BG.jpg);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -52,7 +53,7 @@ html {
 
 }
 .msg-container{
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     border-radius: 10px;
     max-width: 550px !important;
@@ -77,6 +78,7 @@ nav{
 }
 .beut{
     width: 20%;
+    margin-right: 20% !important;
 }
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.8) !important;
@@ -93,48 +95,33 @@ nav{
         -1.5px 1.5px 0 black,
         1.5px 1.5px 0 black;
 }
-.imgPub{
+.title_info{
     display: flex;
-    justify-content: space-around;
-    padding: 3%;
+    justify-content: center;
+    border: solid black 1.5px;
+    max-width: 99%;
+    padding: 2%;
+    background-color: rgb(103, 103, 103);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 400%;
 }
-.logoDist{
-    width: 300px;
-    height: auto;
+.last_button{
+    width: 98% !important;
+    margin-left: 1% !important;
 }
-.lLine{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 96% !important;
-    margin-left: 2% !important;
+.last_button > a{
+    color: var(--bs-warning) !important;
+    text-transform: uppercase !important;
+    font-family: 'Caveat', cursive !important;
+    padding-top: 140px !important;
+    font-size: 50px !important;
+    min-width: 100% !important;
+    min-height: 400px !important;
 }
-.first-p, .second-p, .third-p{
-    padding: 1% !important;
-    max-width: 29% !important;
-}
-.first-p > h4, .second-p > h4, .third-p > h4{
-    color: #0e76a8;
-}
-.flowchart-step {
-    border: 2px solid black;
-    padding: 8px;
-    text-align: center;
-}
-
-.flowchart-arrow {
-    margin-top: 2% !important;
-    margin-bottom: 2% !important;
-    text-align: center;
-    font-size: 24px;
-}
-.pArtists-container{
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-evenly !important;
-}
-.pArtists-container > img{
-    width: 300px !important;
-    height: 300px !important;
+.last_button > a:hover{
+    color: black !important;
+    background-color: white !important;
 }
 .graffica-scroll-button {
     position: fixed;
@@ -158,81 +145,6 @@ nav{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.triangle {
-    width: auto;
-    height: 800px;
-    background: linear-gradient(to bottom left, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-.triangle-text{
-    text-align: right;
-    margin-left: 50%;
-    max-width: 50%;
-}
-.poligone{
-    width: auto;
-    height: 650px;
-    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #cfaa58 50%, #cfaa58 100%);
-    background-size: 80% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0;
-}
-.poligone-text{
-    text-align: left;
-    margin-right: 50%;
-    max-width: 50%;
-}
-.poligone-end{
-    width: auto;
-    height: 100px;
-    background-color: #cfaa58;
-    z-index: -999999 !important;
-    
-}
-.radiants-container{
-    max-width: 98% !important;
-    margin-left: 1% !important;
-}
-.cards-container{
-    display: flex;
-    justify-content: space-evenly;
-}
-.lLine{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 96% !important;
-    margin-left: 2% !important;
-}
-.first-p, .second-p, .third-p{
-    padding: 1% !important;
-    max-width: 29% !important;
-    color: #3b5998;
-    font-weight: 550;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-}
-.last_button > a{
-    color: var(--bs-warning) !important;
-    text-transform: uppercase !important;
-    font-family: 'Caveat', cursive !important;
-    padding-top: 140px !important;
-    font-size: 50px !important;
-    min-width: 100% !important;
-    min-height: 400px !important;
-}
-.last_button > a:hover{
-    color: black !important;
-    background-color: white !important;
-}
-.secondary_title{
-    color: var(--bs-warning) !important;
-}
-.youtube_video{
-    width: 1920px !important;
-    height: 1080px !important;
 }
 /*==================================Footer==========================================*/
 footer{
@@ -287,11 +199,16 @@ footer{
     background-size: cover;
     padding: 20px !important;
     margin-top: -30% !important;
-    background-image: url(../../IMG/unchainedMusic.png);
+    background-image: url(../../../IMG/unchainedMusic.png);
     border-bottom: 4px solid #b50181;
 }
 .unchained:hover{
-    background-image: url(../../IMG/unchianedMusic_hover.png);
+    background-image: url(../../../IMG/unchianedMusic_hover.png);
+}
+.unchined-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 .footerList > li > a{
     color: white !important;
@@ -323,75 +240,71 @@ footer{
     margin-top: 1% !important;
     margin-left: -50% !important;
 }
+
 /*WideScreen*/
 @media only screen and (min-width:1600px){
     .single-artist{
         margin-left: 18% !important;
-    }    
-}
-
-@media only screen and (min-width:992px){
-    .collapse{
-        margin-left: 20% !important;
+    }
+    .promoIMG > img{
+        height: 320px !important;
+        width: 240px !important;
+    }
+    #header-home{
+        background-size: cover;
+        background-position: center;
+        min-height: 160vh;
     }
 }
 /*galaxyFold*/
 @media only screen and (max-width:670px){
-    .title{
-        font-size: 25px;
-    }
     .single-artist{
         margin-left: 1.5% !important;
     }
     .lLine{
         font-size: 10px;
     }
-    .first-p > h4, .second-p > h4, .third-p > h4{
-        font-size: 12.4px;
-    }
     .pArtists-container{
         flex-direction: column;
     }
     .pArtists-container > img{
-        width: 250px !important;
-        height: 250px !important;
         margin-top: 10% !important;
     }
-    .triangle{
-        height: 2000px;
-    }
-    
-    .triangle{
-        height: 750px !important;
-        background-size: 50% 100%;
-    }
-    .triangle-text{
-        font-size: 12px;
-    }
-    .poligone{
-        height: 700px !important;
-        background-size: 65% 100%;
-    }
-    .poligone-text{
-        font-size: 12px;
-    }
-    .cards-container{
+    .promo-buttons{
         flex-direction: column;
     }
-    .card{
-        margin-top: 10% !important;
+    .promo-buttons > button{
+        margin-top: 5%;
+    }
+    .title_info{
+        font-size: 20px;
+        margin-left: 0px;
+        max-width: 96% !important;
+    }
+    #title_info_2{
+        margin-left: 0 !important;
+    }
+    .youtube_video{
+        width: 390px !important;
+        height: 365px !important;
+    }
+    .dist_music_buttons_container{
+        flex-direction: column;
+    }
+    .dist_music_buttons_container > a{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .fontPub{
+        width: 385px;
     }
     .logoDist{
         width: 200px;
         height: auto;
     }
     .unchained{
-        background-image: url(../../IMG/unchianedMusic_hover.png);
-        border-bottom: none;
-    }
-    .youtube_video{
-        width: 390px !important;
-        height: 365px !important;
+        background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none !important;
     }
 }
 @media only screen and (max-width:1120px){
@@ -404,12 +317,6 @@ footer{
         min-height: 300px;
         background-size: cover;
         margin-bottom: 10%;
-    }
-    .pArtists-container{
-        flex-direction: column !important;
-    }
-    .pArtists-container > img{
-        margin-top: 5%;
     }
     .fontPub{
         font-size: 50px !important;
@@ -425,12 +332,7 @@ footer{
     }
     .beut{
         width: 25%;
-    }
-    header{
-        background-image: url(IMG/BG.jpg);
-        background-size: cover;
-        background-position: center;
-        min-height: 700px;
+        margin-right: 10% !important;
     }
     .msg-container{
         background-color: rgba(0, 0, 0, 0.8);
@@ -470,13 +372,16 @@ footer{
     .cards-services{
         flex-direction: column;
     }
-    .unchained{
-        background-image: url(../../IMG/unchianedMusic_hover.png);
-        border-bottom: none;
+    .btn_perso{
+        margin-bottom: 5%;
     }
     .youtube_video{
         width: 1024px !important;
         height: 720px !important;
+    }
+    .unchained{
+        background-image: url(./IMG/unchianedMusic_hover.png);
+        border-bottom: none;
     }
 }
 

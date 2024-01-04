@@ -463,8 +463,21 @@ footer{
 .copyR{
     color: lightgray;
 }
-.footerList > li > h4, .social > li > h4{
+.footerList > li > h4, .social > li > h4, .social > li > h5{
     color: var(--bs-warning) !important;
+}
+.official_partner{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    margin-left: -10% !important;
+}
+.official_partner > p{
+    font-size: 110% !important;
+}
+.official_partner > a > span{
+    margin-top: 1% !important;
+    margin-left: -50% !important;
 }
 /*WideScreen*/
 @media only screen and (min-width:1600px){
