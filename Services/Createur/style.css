@@ -103,7 +103,7 @@ nav{
     align-items: center;
 }
 .img-box{
-    padding: 50px;
+    padding: 10px;
 }
 .img-box > img{
     width: 200px !important;
@@ -152,12 +152,29 @@ nav{
     font-weight: 600;
     font-size: 190%;
 }
-.header-container{
+.title_info_2{
     display: flex;
-    max-width: 90%;
-    margin-left: 5%;
-    height: 25vh;
+    justify-content: center;
+    border: solid black 1.5px;
+    max-width: 98%;
+    margin-left: 1%;
+    padding: 2%;
+    background-color: rgb(232, 232, 232);
+    color: var(--bs-warning);
+    font-weight: 600;
+    font-size: 190%;
+}
+.header-container{
+    background-color: rgb(103, 103, 103);
+    display: flex;
+    max-width: 98%;
+    margin-left: 1%;
+    height: 30vh;
     justify-content: space-evenly;
+}
+.header-container > div > img{
+    margin-top: 14% !important;
+    margin-left: 1% !important;
 }
 .header-container > div{
     width: 50% !important;
@@ -170,17 +187,18 @@ nav{
     justify-content: space-evenly;
     flex-direction: column;
 }
+.titles-container > h2 > a{
+    text-decoration: none !important;
+    color: var(--bs-warning) !important;
+}
+.titles-container > h2:hover{
+    background-color: black !important;
+}
 .droit-container{
     display: flex;
     justify-content: space-between;
     max-width: 90% !important;
     margin-left: 5% !important;
-}
-.mid-paragraph{
-    max-width: 80% !important;
-    margin-left: 10% !important;
-    font-size: 150%;
-    font-weight: 600;
 }
 .artiste-indipendant-container{
     display: flex;
@@ -188,6 +206,12 @@ nav{
     align-items: center !important;
     max-width: 98% !important;
     margin-left: 1% !important;
+}
+.artiste-indipendant-p{
+    background-color: rgb(232, 232, 232) !important;
+    max-width: 90% !important;
+    margin-left: 5% !important;
+    padding: 2% !important;
 }
 .artiste-indipendant-container > img{
     width: 350px !important;
@@ -197,9 +221,10 @@ nav{
     width: 60% !important;
 }
 .artiste-text-container > h4{
-    margin-bottom: 8% !important;
+    margin-bottom: 4% !important;
 }
-.artiste-text-container > p{
+.artiste-text-p > p{
+    font-weight: 650 !important;
     margin-bottom: 8% !important;
 }
 .lance{
