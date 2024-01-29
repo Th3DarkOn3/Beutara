@@ -29,7 +29,7 @@ html {
     background-color: transparent !important;
 }
 #header-home{
-    background-image: url(./IMG/BG.jpg);
+    background-image: url(../../IMG/prix-bg.png);
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -85,6 +85,21 @@ nav{
     border: #ffffff solid 1px !important;
 }
 /*==================================Main===========================================*/
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    padding: 10px;
+}
+.img-box > img{
+    width: 200px !important;
+}
+.text-box{
+    padding: 8px 10px 8px 20px;
+}
 .title{
     font-size: 40px;
     font-weight: 600;
@@ -305,6 +320,16 @@ footer{
     .unchained{
         background-image: url(./IMG/unchianedMusic_hover.png);
         border-bottom: none !important;
+    }
+    
+    .box{
+        flex-direction: column;
+    }
+    .text-box{
+        border: none !important;
+    }
+    .img-box{
+        border: none !important;
     }
 }
 @media only screen and (max-width:1120px){
