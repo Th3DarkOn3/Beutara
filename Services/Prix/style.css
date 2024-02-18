@@ -336,7 +336,7 @@ footer{
         height: auto;
     }
     .unchained{
-        background-image: url(./IMG/unchianedMusic_hover.png);
+        background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none !important;
     }
     
@@ -423,7 +423,7 @@ footer{
         height: 720px !important;
     }
     .unchained{
-        background-image: url(./IMG/unchianedMusic_hover.png);
+        background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none;
     }
 }
