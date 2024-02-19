@@ -179,6 +179,22 @@ nav{
     margin-top: 3%;
     margin-bottom: 3%;
 }
+.prix-cards{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    max-width: 96% !important;
+    margin-left: 2% !important;
+}
+.title-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100% !important;
+}
+.title-container > h3{
+    min-width: 98% !important;
+}
 /*==================================Footer==========================================*/
 footer{
     display: flex;
