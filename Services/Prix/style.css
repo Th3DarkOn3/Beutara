@@ -164,11 +164,6 @@ nav{
 #prix > h3 {
     margin-left: 1% !important;
 }
-.card{
-    max-width: 24% !important;
-    padding: 1% !important;
-
-}
 .cards_container{
     background-color: rgb(103, 103, 103);
     padding: 3%;
@@ -208,8 +203,13 @@ nav{
     margin-left: 2% !important;
 }
 .card{
-    max-width: 96% !important;
-    margin-left: 2% !important;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+.card > img{
+    width: 100% !important;
+    max-width: 350px !important;
 }
 .first-p, .second-p, .third-p{
     padding: 1% !important;
@@ -316,7 +316,7 @@ footer{
 }
 
 /*WideScreen*/
-@media only screen and (min-width:1600px){
+@media only screen and (min-width:1750px){
     .single-artist{
         margin-left: 18% !important;
     }
@@ -336,7 +336,9 @@ footer{
         margin-left: 1.5% !important;
     }
     .lLine{
-        font-size: 10px;
+        max-width: 100% !important;
+        margin: 0 !important;
+        font-size: 12px;
     }
     .pArtists-container{
         flex-direction: column;
@@ -391,7 +393,7 @@ footer{
         border: none !important;
     }
 }
-@media only screen and (max-width:1120px){
+@media only screen and (max-width:1200px){
     .parallax{
         width:99%; 
         padding:10px;
@@ -466,6 +468,11 @@ footer{
     .unchained{
         background-image: url(../../IMG/unchianedMusic_hover.png);
         border-bottom: none;
+    }
+    .cards_container, .prix-cards, #nos-abonnements, .cards-container{
+        flex-direction: column !important;
+        justify-content: center !important;
+
     }
 }
 

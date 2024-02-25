@@ -123,6 +123,10 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
+.img_container > img{
+    max-width: 350px !important;
+    width: 100% !important;
+}
 .list_container{
     max-width: 96% !important;
     margin-left: 2% !important;
@@ -140,10 +144,6 @@ nav{
 .lLine{
     display: flex;
     justify-content: space-evenly;
-    max-width: 96% !important;
-    margin-left: 2% !important;
-}
-.card{
     max-width: 96% !important;
     margin-left: 2% !important;
 }
@@ -375,6 +375,14 @@ footer{
     }
     .cards-services{
         flex-direction: column;
+    }
+    .img_container{
+        flex-direction: column;
+    }
+    .cards_container, .prix-cards, #nos-abonnements, .cards-container{
+        flex-direction: column !important;
+        justify-content: center !important;
+
     }
 }
 
